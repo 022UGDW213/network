@@ -1,0 +1,15 @@
+title: o22ugdw213.network
+description: Time Loops — Juan J Serrano P
+baseurl: /network
+url: https://022ugdw213.github.io
+theme: null
+plugins: []
+exclude:
+  - README.md
+  - LICENSE
+  - CNAME
+include:
+  - .nojekyll
+  - index.html
+  - styles.css
+  - bg.mp4
