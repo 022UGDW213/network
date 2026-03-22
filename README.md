@@ -1,33 +1,44 @@
+# o22ugdw213.network
 
+> Personal website and network dashboard by [022UGDW213 (Time Loops)](https://github.com/022UGDW213)
 
-- HTML5 WEB PAGE
-- 
-- <- <- Back to Profile<-
+## Live Site
 
-  #####      <- <- https://github.com/022UGDW213<-
+[https://022ugdw213.github.io/network/](https://022ugdw213.github.io/network/)
 
- 
-- Click Here -> ->
+## Features
 
-^^^^^^^^^^^^^ -> ->
+- Modern responsive design
+- Animated background with glassmorphism UI
+- Social media links
+- Project showcase
+- Network dashboard metrics
+- Dark theme
 
--https://www.google.com/search?q=%3C-%23022UGDW213&rlz=1C1CHBF_enUS963US963&sxsrf=ALiCzsYQseD4Eo0W4JKkVfN4yKke84Yw8Q%3A1663536978061&ei=Uo8nY5KqA_qu5NoP6p6UoAo&ved=0ahUKEwiSm5eVpp_6AhV6F1kFHWoPBaQQ4dUDCA4&uact=5&oq=%3C-%23022UGDW213&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEB4QogQ6CggAEEcQ1gQQsAM6DQgAEEcQ1gQQsAMQyQNKBAhBGABKBAhGGABQ0QZYvzJg5jxoAnABeACAAXWIAcYCkgEDMy4xmAEAoAEByAEDwAEB&sclient=gws-wiz
+## Tech Stack
 
+- HTML5, CSS3 (Grid, Flexbox, CSS Variables, Animations)
+- Vanilla JavaScript
+- Font Awesome icons
+- GitHub Pages hosting
 
-^^^^^^^^^^^^^ -> ->
+## Structure
 
- - Google Global TAG     <-
+```
+network/
+  index.html      — Main page
+  styles.css       — Stylesheet
+  web.html         — Legacy page
+  bg.mp4           — Background video
+```
 
+## Author
 
-      
-          #022UGDW213 
-       
-     
-     
-     
-   <- ("https://www.tiktok.com/@o22ugdw213")
-   
-   
- - Google Page
+**Juan J Serrano P** — #o22ugdw213
+- GitHub: [@022UGDW213](https://github.com/022UGDW213)
+- YouTube: [@O22UGDW213](https://youtube.com/@O22UGDW213)
+- Website: [o22ugdw213.network](https://sites.google.com/view/o22ugdw213/home)
 
-<- https://sites.google.com/view/022ugdw213/blog
+## License
+
+MIT
