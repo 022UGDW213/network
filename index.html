@@ -4,132 +4,128 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>o22ugdw213.network — Time Loops</title>
+  <meta name="description" content="Juan J Serrano P — Tech Enthusiast, Cybersecurity, AI Explorer. iBot Synthetic Intelligence.">
+  <meta property="og:title" content="o22ugdw213.network — Time Loops">
+  <meta property="og:description" content="Tech Enthusiast | Cybersecurity | AI Explorer | iBot Synthetic Intelligence">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-  <!-- Background video -->
-  <video autoplay loop muted playsinline class="bg-video">
-    <source src="bg.mp4" type="video/mp4">
-  </video>
+  <canvas id="particles"></canvas>
   <div class="bg-overlay"></div>
 
-  <!-- Navigation -->
-  <nav class="navbar">
+  <nav class="navbar" id="navbar">
     <div class="nav-brand">
-      <span class="brand-icon">&#x2B22;</span>
-      <span class="brand-text">o22ugdw213<span class="brand-dot">.network</span></span>
+      <svg viewBox="0 0 36 36" width="28" height="28"><polygon points="18,2 31,9.5 31,26.5 18,34 5,26.5 5,9.5" stroke="#00ff9d" stroke-width="1.5" fill="rgba(0,255,157,0.06)"/><circle cx="18" cy="18" r="3" fill="#00ff9d" opacity="0.9"/></svg>
+      <span>o22ugdw213<span class="brand-dot">.network</span></span>
     </div>
-    <div class="nav-links">
-      <a href="#home">Home</a>
+    <div class="nav-links" id="nav-links">
+      <a href="#home" class="active">Home</a>
       <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
+      <a href="#ibot">iBot AI</a>
       <a href="#connect">Connect</a>
     </div>
+    <button class="nav-toggle" id="nav-toggle"><i class="fas fa-bars"></i></button>
   </nav>
 
-  <!-- Hero Section -->
   <section id="home" class="hero">
     <div class="hero-content">
-      <div class="hero-badge">Time Loops</div>
-      <h1>Juan J Serrano P</h1>
-      <p class="hero-tagline">Tech Enthusiast &bull; Cybersecurity &bull; AI Explorer</p>
-      <p class="hero-sub">Proficient in Python, HTML/CSS, Machine Learning &amp; Cloud Infrastructure</p>
-      <div class="hero-stats">
-        <div class="stat"><span class="stat-num" id="repo-count">40</span><span class="stat-label">Repos</span></div>
-        <div class="stat"><span class="stat-num" id="star-count">368</span><span class="stat-label">Stars</span></div>
-        <div class="stat"><span class="stat-num">14</span><span class="stat-label">AI Models</span></div>
-        <div class="stat"><span class="stat-num">136+</span><span class="stat-label">Skills</span></div>
+      <div class="hero-label"><span class="label-dot"></span> Time Loops — Autonomous Systems</div>
+      <h1><span class="line">Juan J</span><span class="line gradient">Serrano P</span></h1>
+      <p class="hero-tagline">Tech Enthusiast <span class="sep">/</span> Cybersecurity <span class="sep">/</span> AI Explorer</p>
+      <p class="hero-desc">Building autonomous AI systems with 136+ skills, 14 local models, and multi-provider intelligence.</p>
+      <div class="hero-metrics">
+        <div class="metric"><div class="metric-value" data-target="44">0</div><div class="metric-label">Repos</div></div>
+        <div class="metric"><div class="metric-value" data-target="368">0</div><div class="metric-label">Stars</div></div>
+        <div class="metric"><div class="metric-value" data-target="136">0</div><div class="metric-label">AI Skills</div></div>
+        <div class="metric"><div class="metric-value" data-target="14">0</div><div class="metric-label">Models</div></div>
       </div>
-      <div class="hero-actions">
-        <a href="https://github.com/022UGDW213" class="btn btn-primary" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-        <a href="https://youtube.com/@O22UGDW213" class="btn btn-secondary" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
-        <a href="https://sites.google.com/view/o22ugdw213/home" class="btn btn-outline" target="_blank"><i class="fas fa-globe"></i> Website</a>
+      <div class="hero-cta">
+        <a href="https://github.com/022UGDW213" class="cta-btn primary" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        <a href="#ibot" class="cta-btn glass"><i class="fas fa-robot"></i> iBot Platform</a>
+        <a href="#connect" class="cta-btn outline"><i class="fas fa-envelope"></i> Connect</a>
       </div>
+    </div>
+    <div class="hero-visual">
+      <div class="orbit-ring ring-1"></div>
+      <div class="orbit-ring ring-2"></div>
+      <div class="orbit-ring ring-3"></div>
+      <div class="orbit-core"><i class="fas fa-brain"></i></div>
+      <div class="orbit-node n1"><i class="fab fa-python"></i></div>
+      <div class="orbit-node n2"><i class="fas fa-shield-halved"></i></div>
+      <div class="orbit-node n3"><i class="fab fa-aws"></i></div>
+      <div class="orbit-node n4"><i class="fas fa-microchip"></i></div>
     </div>
   </section>
 
-  <!-- Projects Section -->
   <section id="projects" class="section">
-    <h2 class="section-title"><i class="fas fa-code"></i> Projects</h2>
+    <div class="section-header"><span class="section-tag">Portfolio</span><h2><i class="fas fa-code"></i> Projects</h2></div>
     <div class="projects-grid">
-      <a href="https://github.com/022UGDW213/Harmony-OS-Next" class="project-card" target="_blank">
-        <div class="project-icon"><i class="fas fa-mobile-screen"></i></div>
-        <h3>Harmony-OS-Next</h3>
-        <p>HarmonyOS NEXT development resources and ArkTS examples</p>
-        <span class="project-lang">C</span>
-      </a>
-      <a href="https://github.com/022UGDW213/Python-Programing" class="project-card" target="_blank">
-        <div class="project-icon"><i class="fab fa-python"></i></div>
-        <h3>Python Programming</h3>
-        <p>Comprehensive Python course — basics through AI/ML</p>
-        <span class="project-lang">Python</span>
-      </a>
-      <a href="https://github.com/022UGDW213/network" class="project-card" target="_blank">
-        <div class="project-icon"><i class="fas fa-network-wired"></i></div>
-        <h3>Network</h3>
-        <p>This website — personal dashboard and portfolio</p>
-        <span class="project-lang">HTML/CSS</span>
-      </a>
-      <a href="https://github.com/022UGDW213/HarmonyOS" class="project-card" target="_blank">
-        <div class="project-icon"><i class="fas fa-server"></i></div>
-        <h3>HarmonyOS</h3>
-        <p>Curated HarmonyOS resources — English, Chinese, Turkish docs</p>
-        <span class="project-lang">C</span>
-      </a>
+      <a href="https://github.com/022UGDW213/Harmony-OS-Next" class="project-card" target="_blank"><div class="card-glow"></div><div class="card-top"><div class="card-icon"><i class="fas fa-mobile-screen"></i></div><span class="card-lang">C</span></div><h3>Harmony-OS-Next</h3><p>HarmonyOS NEXT development, ArkTS examples, distributed capabilities</p><div class="card-meta"><i class="fas fa-star"></i> Featured</div></a>
+      <a href="https://github.com/022UGDW213/Python-Programing" class="project-card" target="_blank"><div class="card-glow"></div><div class="card-top"><div class="card-icon"><i class="fab fa-python"></i></div><span class="card-lang">Python</span></div><h3>Python Programming</h3><p>Complete course — 16 sections from basics to AI/ML with TensorFlow</p><div class="card-meta"><i class="fas fa-book-open"></i> 16 sections</div></a>
+      <a href="https://github.com/022UGDW213/HarmonyOS" class="project-card" target="_blank"><div class="card-glow"></div><div class="card-top"><div class="card-icon"><i class="fas fa-server"></i></div><span class="card-lang">C</span></div><h3>HarmonyOS</h3><p>Curated resources — English, Chinese, Turkish docs with glossary</p><div class="card-meta"><i class="fas fa-language"></i> 3 languages</div></a>
+      <a href="https://github.com/022UGDW213/network" class="project-card active" target="_blank"><div class="card-glow"></div><div class="card-top"><div class="card-icon"><i class="fas fa-globe"></i></div><span class="card-lang">HTML/CSS/JS</span></div><h3>Network</h3><p>This site — portfolio with particle animations and glassmorphism</p><div class="card-meta"><i class="fas fa-eye"></i> You are here</div></a>
     </div>
   </section>
 
-  <!-- Skills Section -->
   <section id="skills" class="section">
-    <h2 class="section-title"><i class="fas fa-bolt"></i> Skills &amp; Tech</h2>
-    <div class="skills-grid">
-      <div class="skill-card"><i class="fab fa-python"></i><span>Python</span></div>
-      <div class="skill-card"><i class="fab fa-html5"></i><span>HTML5</span></div>
-      <div class="skill-card"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
-      <div class="skill-card"><i class="fab fa-js"></i><span>JavaScript</span></div>
-      <div class="skill-card"><i class="fas fa-brain"></i><span>AI/ML</span></div>
-      <div class="skill-card"><i class="fas fa-shield-halved"></i><span>Cybersecurity</span></div>
-      <div class="skill-card"><i class="fab fa-aws"></i><span>AWS</span></div>
-      <div class="skill-card"><i class="fab fa-linux"></i><span>Linux</span></div>
-      <div class="skill-card"><i class="fab fa-docker"></i><span>Docker</span></div>
-      <div class="skill-card"><i class="fas fa-cloud"></i><span>Cloud</span></div>
-      <div class="skill-card"><i class="fab fa-git-alt"></i><span>Git</span></div>
-      <div class="skill-card"><i class="fas fa-robot"></i><span>Ollama</span></div>
+    <div class="section-header"><span class="section-tag">Capabilities</span><h2><i class="fas fa-bolt"></i> Skills & Tech</h2></div>
+    <div class="skills-categories">
+      <div class="skill-category"><h3><i class="fas fa-code"></i> Languages</h3><div class="skill-pills"><span class="pill"><i class="fab fa-python"></i> Python</span><span class="pill"><i class="fab fa-html5"></i> HTML5</span><span class="pill"><i class="fab fa-css3-alt"></i> CSS3</span><span class="pill"><i class="fab fa-js"></i> JavaScript</span><span class="pill">C/C++</span><span class="pill">TypeScript</span></div></div>
+      <div class="skill-category"><h3><i class="fas fa-brain"></i> AI / ML</h3><div class="skill-pills"><span class="pill hot">TensorFlow</span><span class="pill hot">PyTorch</span><span class="pill hot">Ollama</span><span class="pill">HuggingFace</span><span class="pill">scikit-learn</span><span class="pill">LangChain</span><span class="pill">OpenCV</span></div></div>
+      <div class="skill-category"><h3><i class="fas fa-shield-halved"></i> Security</h3><div class="skill-pills"><span class="pill">Pen Testing</span><span class="pill">Threat Intel</span><span class="pill">Network Security</span><span class="pill">OWASP</span><span class="pill">Encryption</span></div></div>
+      <div class="skill-category"><h3><i class="fas fa-cloud"></i> Cloud / DevOps</h3><div class="skill-pills"><span class="pill"><i class="fab fa-aws"></i> AWS</span><span class="pill">EC2/Bedrock</span><span class="pill"><i class="fab fa-docker"></i> Docker</span><span class="pill"><i class="fab fa-linux"></i> Linux</span><span class="pill">Cloudflare</span><span class="pill"><i class="fab fa-git-alt"></i> Git</span></div></div>
     </div>
   </section>
 
-  <!-- Connect Section -->
+  <section id="ibot" class="section ibot-section">
+    <div class="section-header"><span class="section-tag">Flagship</span><h2><i class="fas fa-robot"></i> iBot Synthetic Intelligence</h2><p class="section-desc">Autonomous AI platform — multi-provider, local models, 136+ skills</p></div>
+    <div class="ibot-grid">
+      <div class="ibot-card"><div class="ibot-card-num">136+</div><div class="ibot-card-title">AI Skills</div><div class="ibot-card-desc">Search, code, automate, analyze — skill marketplace with pipelines</div></div>
+      <div class="ibot-card"><div class="ibot-card-num">14</div><div class="ibot-card-title">Local Models</div><div class="ibot-card-desc">Gemma3, Llama4, Qwen3, DeepSeek-R1, Mistral — 4 with vision</div></div>
+      <div class="ibot-card"><div class="ibot-card-num">5</div><div class="ibot-card-title">Providers</div><div class="ibot-card-desc">Bedrock, DeepSeek, OpenAI, Ollama, Cloudflare — auto-failover</div></div>
+      <div class="ibot-card"><div class="ibot-card-num">23</div><div class="ibot-card-title">ML Libs</div><div class="ibot-card-desc">TensorFlow, PyTorch, Transformers, ONNX, ChromaDB, FastAPI</div></div>
+    </div>
+    <div class="ibot-features">
+      <div class="ibot-feature"><i class="fas fa-wand-magic-sparkles"></i> Copilot — web search, file/PDF reading, vision</div>
+      <div class="ibot-feature"><i class="fas fa-code"></i> Full IDE — Monaco editor, Git, AI code review</div>
+      <div class="ibot-feature"><i class="fas fa-diagram-project"></i> Pipeline composer — drag-and-drop skill chaining</div>
+      <div class="ibot-feature"><i class="fas fa-users"></i> Group chat — 5 AI characters collaborate</div>
+      <div class="ibot-feature"><i class="fas fa-eye"></i> Vision — analyze images with Gemma3 locally</div>
+      <div class="ibot-feature"><i class="fas fa-cloud-arrow-up"></i> Auto-deploy — push to GitHub via Copilot</div>
+    </div>
+  </section>
+
   <section id="connect" class="section">
-    <h2 class="section-title"><i class="fas fa-link"></i> Connect</h2>
+    <div class="section-header"><span class="section-tag">Social</span><h2><i class="fas fa-link"></i> Connect</h2></div>
     <div class="connect-grid">
-      <a href="https://github.com/022UGDW213" class="connect-card" target="_blank"><i class="fab fa-github"></i><span>GitHub</span></a>
-      <a href="https://youtube.com/@O22UGDW213" class="connect-card" target="_blank"><i class="fab fa-youtube"></i><span>YouTube</span></a>
-      <a href="https://www.tiktok.com/@o22ugdw213" class="connect-card" target="_blank"><i class="fab fa-tiktok"></i><span>TikTok</span></a>
-      <a href="https://sites.google.com/view/o22ugdw213/home" class="connect-card" target="_blank"><i class="fas fa-globe"></i><span>Website</span></a>
+      <a href="https://github.com/022UGDW213" class="connect-card" target="_blank"><i class="fab fa-github"></i><span class="connect-name">GitHub</span><span class="connect-handle">@022UGDW213</span></a>
+      <a href="https://youtube.com/@O22UGDW213" class="connect-card" target="_blank"><i class="fab fa-youtube"></i><span class="connect-name">YouTube</span><span class="connect-handle">@O22UGDW213</span></a>
+      <a href="https://www.tiktok.com/@o22ugdw213" class="connect-card" target="_blank"><i class="fab fa-tiktok"></i><span class="connect-name">TikTok</span><span class="connect-handle">@o22ugdw213</span></a>
+      <a href="https://sites.google.com/view/o22ugdw213/home" class="connect-card" target="_blank"><i class="fas fa-globe"></i><span class="connect-name">Website</span><span class="connect-handle">o22ugdw213.network</span></a>
     </div>
   </section>
 
-  <!-- Footer -->
   <footer class="footer">
-    <p>&copy; 2024-2026 <strong>Time Loops</strong> &mdash; Juan J Serrano P #o22ugdw213</p>
-    <p class="footer-sub">Built with iBot Synthetic Intelligence</p>
+    <p>&copy; 2024-2026 <strong>Time Loops</strong> — Juan J Serrano P #o22ugdw213</p>
+    <p class="footer-sub">Built with <span style="color:#00ff9d">iBot Synthetic Intelligence</span></p>
   </footer>
 
-  <script>
-    // Smooth scroll
-    document.querySelectorAll("a[href^=\"#\"]").forEach(a => {
-      a.addEventListener("click", e => {
-        e.preventDefault();
-        document.querySelector(a.getAttribute("href"))?.scrollIntoView({ behavior: "smooth" });
-      });
-    });
-    // Animate stats on scroll
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add("visible"); });
-    }, { threshold: 0.1 });
-    document.querySelectorAll(".project-card, .skill-card, .stat, .connect-card").forEach(el => observer.observe(el));
-  </script>
+<script>
+const canvas=document.getElementById('particles'),ctx=canvas.getContext('2d');let particles=[];
+function resize(){canvas.width=innerWidth;canvas.height=innerHeight}addEventListener('resize',resize);resize();
+class P{constructor(){this.reset()}reset(){this.x=Math.random()*canvas.width;this.y=Math.random()*canvas.height;this.s=Math.random()*1.5+.5;this.sx=(Math.random()-.5)*.3;this.sy=(Math.random()-.5)*.3;this.o=Math.random()*.4+.1}update(){this.x+=this.sx;this.y+=this.sy;if(this.x<0||this.x>canvas.width||this.y<0||this.y>canvas.height)this.reset()}draw(){ctx.fillStyle=`rgba(0,255,157,${this.o})`;ctx.beginPath();ctx.arc(this.x,this.y,this.s,0,Math.PI*2);ctx.fill()}}
+for(let i=0;i<80;i++)particles.push(new P);
+function anim(){ctx.clearRect(0,0,canvas.width,canvas.height);particles.forEach(p=>{p.update();p.draw()});for(let i=0;i<particles.length;i++)for(let j=i+1;j<particles.length;j++){const dx=particles[i].x-particles[j].x,dy=particles[i].y-particles[j].y,d=Math.sqrt(dx*dx+dy*dy);if(d<120){ctx.strokeStyle=`rgba(0,255,157,${.06*(1-d/120)})`;ctx.lineWidth=.5;ctx.beginPath();ctx.moveTo(particles[i].x,particles[i].y);ctx.lineTo(particles[j].x,particles[j].y);ctx.stroke()}}requestAnimationFrame(anim)}anim();
+const obs=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting)x.target.classList.add('visible')}),{threshold:.1});
+document.querySelectorAll('.project-card,.skill-category,.ibot-card,.ibot-feature,.connect-card,.metric').forEach(el=>obs.observe(el));
+const cObs=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){const el=x.target,t=+el.dataset.target;let c=0;const s=Math.max(1,Math.floor(t/40)),tm=setInterval(()=>{c+=s;if(c>=t){c=t;clearInterval(tm)}el.textContent=c>=100?c+'+':c},30);cObs.unobserve(el)}}),{threshold:.5});
+document.querySelectorAll('.metric-value').forEach(el=>cObs.observe(el));
+addEventListener('scroll',()=>{document.getElementById('navbar').classList.toggle('scrolled',scrollY>50);document.querySelectorAll('section[id]').forEach(s=>{const l=document.querySelector(`.nav-links a[href="#${s.id}"]`);if(l)l.classList.toggle('active',scrollY>=s.offsetTop-100&&scrollY<s.offsetTop+s.offsetHeight)})});
+document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();document.querySelector(a.getAttribute('href'))?.scrollIntoView({behavior:'smooth'});document.getElementById('nav-links').classList.remove('open')}));
+document.getElementById('nav-toggle').addEventListener('click',()=>document.getElementById('nav-links').classList.toggle('open'));
+</script>
 </body>
 </html>
