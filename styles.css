@@ -127,3 +127,22 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--t
 /* Footer */
 .footer{text-align:center;padding:3rem 2rem;color:var(--muted);font-size:.75rem;position:relative;z-index:1}
 .footer-sub{font-size:.6rem;margin-top:.3rem;color:#333}
+
+
+/* v3 accessibility, theme, and interaction upgrades */
+:focus-visible{outline:2px solid var(--p);outline-offset:4px}
+.skip-link{position:fixed;left:1rem;top:-4rem;z-index:200;padding:.65rem 1rem;background:var(--p);color:#000;border-radius:8px;font-weight:700;text-decoration:none;transition:top .2s}
+.skip-link:focus{top:1rem}
+.nav-actions{display:flex;align-items:center;gap:.75rem}
+.theme-toggle{width:32px;height:32px;border-radius:50%;border:1px solid var(--border);background:transparent;color:var(--p);cursor:pointer;transition:all .2s}
+.theme-toggle:hover{background:rgba(0,255,157,.1);transform:rotate(12deg)}
+.status-chip{margin-left:.25rem;padding:.15rem .45rem;border:1px solid rgba(0,255,157,.18);border-radius:999px;color:var(--text);font-size:.55rem;letter-spacing:.04em;text-transform:none}
+.hero-note{display:flex;align-items:center;gap:.45rem;color:var(--p);font-family:'JetBrains Mono',monospace;font-size:.68rem;margin-top:-1.35rem;margin-bottom:1.7rem}
+.pulse-ring{width:7px;height:7px;border-radius:50%;background:var(--p);box-shadow:0 0 0 4px rgba(0,255,157,.12)}
+.scroll-progress{position:fixed;top:0;left:0;height:2px;width:0;background:linear-gradient(90deg,var(--p),var(--s));z-index:201;transition:width .1s linear}
+@media(max-width:768px){.status-chip{display:none}.nav-actions{gap:.5rem}.hero-note{justify-content:center}.hero-metrics{gap:1rem;flex-wrap:wrap}.metric{min-width:62px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.hero-visual{display:none}}
+body.light-theme{--bg:#f2f8f6;--card:rgba(255,255,255,.7);--border:rgba(0,125,93,.18);--text:#10231d;--muted:#527067}
+body.light-theme .navbar.scrolled{background:rgba(242,248,246,.88)}
+body.light-theme .orbit-node{background:rgba(255,255,255,.72)}
+body.light-theme .footer-sub{color:#527067}

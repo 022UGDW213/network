@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <a class="skip-link" href="#home">Skip to content</a>
   <canvas id="particles"></canvas>
   <div class="bg-overlay"></div>
 
@@ -27,15 +28,16 @@
       <a href="#ibot">iBot AI</a>
       <a href="#connect">Connect</a>
     </div>
-    <button class="nav-toggle" id="nav-toggle"><i class="fas fa-bars"></i></button>
+    <div class="nav-actions"><button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light theme" aria-pressed="false"><i class="fas fa-sun"></i></button><button class="nav-toggle" id="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><i class="fas fa-bars"></i></button></div>
   </nav>
 
   <section id="home" class="hero">
     <div class="hero-content">
-      <div class="hero-label"><span class="label-dot"></span> Time Loops — Autonomous Systems</div>
+      <div class="hero-label"><span class="label-dot"></span> Time Loops — Autonomous Systems <span class="status-chip">Available for collaboration</span></div>
       <h1><span class="line">Juan J</span><span class="line gradient">Serrano P</span></h1>
       <p class="hero-tagline">Tech Enthusiast <span class="sep">/</span> Cybersecurity <span class="sep">/</span> AI Explorer</p>
       <p class="hero-desc">Building autonomous AI systems with 687+ skills, 15 local models, and multi-provider intelligence.</p>
+      <p class="hero-note"><span class="pulse-ring"></span> Shipping ideas from prototype to production.</p>
       <div class="hero-metrics">
         <div class="metric"><div class="metric-value" data-target="44">0</div><div class="metric-label">Repos</div></div>
         <div class="metric"><div class="metric-value" data-target="368">0</div><div class="metric-label">Stars</div></div>
@@ -43,7 +45,7 @@
         <div class="metric"><div class="metric-value" data-target="14">0</div><div class="metric-label">Models</div></div>
       </div>
       <div class="hero-cta">
-        <a href="https://github.com/022UGDW213" class="cta-btn primary" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://github.com/022UGDW213" class="cta-btn primary" target="_blank" rel="noreferrer"><i class="fab fa-github"></i> GitHub</a>
         <a href="#ibot" class="cta-btn glass"><i class="fas fa-robot"></i> iBot Platform</a>
         <a href="#connect" class="cta-btn outline"><i class="fas fa-envelope"></i> Connect</a>
       </div>
@@ -63,10 +65,10 @@
   <section id="projects" class="section">
     <div class="section-header"><span class="section-tag">Portfolio</span><h2><i class="fas fa-code"></i> Projects</h2></div>
     <div class="projects-grid">
-      <a href="https://github.com/022UGDW213/Harmony-OS-Next" class="project-card" target="_blank"><div class="card-glow"></div><div class="card-top"><div class="card-icon"><i class="fas fa-mobile-screen"></i></div><span class="card-lang">C</span></div><h3>Harmony-OS-Next</h3><p>HarmonyOS NEXT development, ArkTS examples, distributed capabilities</p><div class="card-meta"><i class="fas fa-star"></i> Featured</div></a>
-      <a href="https://github.com/022UGDW213/Python-Programing" class="project-card" target="_blank"><div class="card-glow"></div><div class="card-top"><div class="card-icon"><i class="fab fa-python"></i></div><span class="card-lang">Python</span></div><h3>Python Programming</h3><p>Complete course — 16 sections from basics to AI/ML with TensorFlow</p><div class="card-meta"><i class="fas fa-book-open"></i> 16 sections</div></a>
-      <a href="https://github.com/022UGDW213/HarmonyOS" class="project-card" target="_blank"><div class="card-glow"></div><div class="card-top"><div class="card-icon"><i class="fas fa-server"></i></div><span class="card-lang">C</span></div><h3>HarmonyOS</h3><p>Curated resources — English, Chinese, Turkish docs with glossary</p><div class="card-meta"><i class="fas fa-language"></i> 3 languages</div></a>
-      <a href="https://github.com/022UGDW213/network" class="project-card active" target="_blank"><div class="card-glow"></div><div class="card-top"><div class="card-icon"><i class="fas fa-globe"></i></div><span class="card-lang">HTML/CSS/JS</span></div><h3>Network</h3><p>This site — portfolio with particle animations and glassmorphism</p><div class="card-meta"><i class="fas fa-eye"></i> You are here</div></a>
+      <a href="https://github.com/022UGDW213/Harmony-OS-Next" class="project-card" target="_blank" rel="noreferrer"><div class="card-glow"></div><div class="card-top"><div class="card-icon"><i class="fas fa-mobile-screen"></i></div><span class="card-lang">C</span></div><h3>Harmony-OS-Next</h3><p>HarmonyOS NEXT development, ArkTS examples, distributed capabilities</p><div class="card-meta"><i class="fas fa-star"></i> Featured</div></a>
+      <a href="https://github.com/022UGDW213/Python-Programing" class="project-card" target="_blank" rel="noreferrer"><div class="card-glow"></div><div class="card-top"><div class="card-icon"><i class="fab fa-python"></i></div><span class="card-lang">Python</span></div><h3>Python Programming</h3><p>Complete course — 16 sections from basics to AI/ML with TensorFlow</p><div class="card-meta"><i class="fas fa-book-open"></i> 16 sections</div></a>
+      <a href="https://github.com/022UGDW213/HarmonyOS" class="project-card" target="_blank" rel="noreferrer"><div class="card-glow"></div><div class="card-top"><div class="card-icon"><i class="fas fa-server"></i></div><span class="card-lang">C</span></div><h3>HarmonyOS</h3><p>Curated resources — English, Chinese, Turkish docs with glossary</p><div class="card-meta"><i class="fas fa-language"></i> 3 languages</div></a>
+      <a href="https://github.com/022UGDW213/network" class="project-card active" target="_blank" rel="noreferrer"><div class="card-glow"></div><div class="card-top"><div class="card-icon"><i class="fas fa-globe"></i></div><span class="card-lang">HTML/CSS/JS</span></div><h3>Network</h3><p>This site — portfolio with particle animations and glassmorphism</p><div class="card-meta"><i class="fas fa-eye"></i> You are here</div></a>
     </div>
   </section>
 
@@ -108,12 +110,17 @@
     </div>
   </section>
 
+  <div class="scroll-progress" id="scroll-progress"></div>
   <footer class="footer">
     <p>&copy; 2024-2026 <strong>Time Loops</strong> — Juan J Serrano P #o22ugdw213</p>
     <p class="footer-sub">Built with <span style="color:#00ff9d">iBot Synthetic Intelligence</span></p>
   </footer>
 
 <script>
+  const themeToggle=document.getElementById("theme-toggle");
+  const savedTheme=localStorage.getItem("network-theme");
+  if(savedTheme==="light"){document.body.classList.add("light-theme");themeToggle.setAttribute("aria-pressed","true");themeToggle.setAttribute("aria-label","Switch to dark theme");themeToggle.innerHTML="<i class=\"fas fa-moon\"></i>";}
+  themeToggle.addEventListener("click",()=>{const light=document.body.classList.toggle("light-theme");localStorage.setItem("network-theme",light?"light":"dark");themeToggle.setAttribute("aria-pressed",String(light));themeToggle.setAttribute("aria-label",light?"Switch to dark theme":"Switch to light theme");themeToggle.innerHTML=light?"<i class=\"fas fa-moon\"></i>":"<i class=\"fas fa-sun\"></i>";});
 const canvas=document.getElementById('particles'),ctx=canvas.getContext('2d');let particles=[];
 function resize(){canvas.width=innerWidth;canvas.height=innerHeight}addEventListener('resize',resize);resize();
 class P{constructor(){this.reset()}reset(){this.x=Math.random()*canvas.width;this.y=Math.random()*canvas.height;this.s=Math.random()*1.5+.5;this.sx=(Math.random()-.5)*.3;this.sy=(Math.random()-.5)*.3;this.o=Math.random()*.4+.1}update(){this.x+=this.sx;this.y+=this.sy;if(this.x<0||this.x>canvas.width||this.y<0||this.y>canvas.height)this.reset()}draw(){ctx.fillStyle=`rgba(0,255,157,${this.o})`;ctx.beginPath();ctx.arc(this.x,this.y,this.s,0,Math.PI*2);ctx.fill()}}
@@ -123,9 +130,9 @@ const obs=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting)x.target
 document.querySelectorAll('.project-card,.skill-category,.ibot-card,.ibot-feature,.connect-card,.metric').forEach(el=>obs.observe(el));
 const cObs=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){const el=x.target,t=+el.dataset.target;let c=0;const s=Math.max(1,Math.floor(t/40)),tm=setInterval(()=>{c+=s;if(c>=t){c=t;clearInterval(tm)}el.textContent=c>=100?c+'+':c},30);cObs.unobserve(el)}}),{threshold:.5});
 document.querySelectorAll('.metric-value').forEach(el=>cObs.observe(el));
-addEventListener('scroll',()=>{document.getElementById('navbar').classList.toggle('scrolled',scrollY>50);document.querySelectorAll('section[id]').forEach(s=>{const l=document.querySelector(`.nav-links a[href="#${s.id}"]`);if(l)l.classList.toggle('active',scrollY>=s.offsetTop-100&&scrollY<s.offsetTop+s.offsetHeight)})});
+addEventListener('scroll',()=>{document.getElementById('navbar').classList.toggle('scrolled',scrollY>50);document.getElementById('scroll-progress').style.width=((scrollY/(document.documentElement.scrollHeight-innerHeight))*100)+'%';document.querySelectorAll('section[id]').forEach(s=>{const l=document.querySelector(`.nav-links a[href="#${s.id}"]`);if(l)l.classList.toggle('active',scrollY>=s.offsetTop-100&&scrollY<s.offsetTop+s.offsetHeight)})});
 document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();document.querySelector(a.getAttribute('href'))?.scrollIntoView({behavior:'smooth'});document.getElementById('nav-links').classList.remove('open')}));
-document.getElementById('nav-toggle').addEventListener('click',()=>document.getElementById('nav-links').classList.toggle('open'));
+document.getElementById('nav-toggle').addEventListener('click',()=>{const open=document.getElementById('nav-links').classList.toggle('open');document.getElementById('nav-toggle').setAttribute('aria-expanded',String(open));});
 </script>
 </body>
 </html>
