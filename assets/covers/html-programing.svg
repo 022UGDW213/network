@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="HTML Programing cover art">
+<defs>
+<linearGradient id="bghtmlprograming" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#0c0604"/><stop offset="1" stop-color="#2e1a0a"/>
+</linearGradient>
+<radialGradient id="neb1htmlprograming" cx="0.25" cy="0.2" r="0.55">
+<stop offset="0" stop-color="#ff2ea6" stop-opacity="0.28"/><stop offset="1" stop-color="#ff2ea6" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="neb2htmlprograming" cx="0.8" cy="0.85" r="0.6">
+<stop offset="0" stop-color="#ffb300" stop-opacity="0.24"/><stop offset="1" stop-color="#ffb300" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="barhtmlprograming" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#ff2ea6"/><stop offset="1" stop-color="#ffb300"/>
+</linearGradient>
+</defs>
+<rect width="800" height="450" fill="url(#bghtmlprograming)"/>
+<rect width="800" height="450" fill="url(#neb1htmlprograming)"/>
+<rect width="800" height="450" fill="url(#neb2htmlprograming)"/>
+<circle cx="684.8" cy="306.2" r="1.6" fill="#fff" opacity="0.87"/>
+<circle cx="593.2" cy="309.7" r="1.0" fill="#fff" opacity="0.93"/>
+<circle cx="507.1" cy="213.4" r="1.3" fill="#fff" opacity="0.45"/>
+<circle cx="721.6" cy="12.5" r="1.3" fill="#fff" opacity="0.38"/>
+<circle cx="740.0" cy="344.7" r="0.8" fill="#fff" opacity="0.89"/>
+<circle cx="506.9" cy="341.1" r="2.1" fill="#fff" opacity="0.70"/>
+<circle cx="235.5" cy="87.2" r="0.6" fill="#fff" opacity="0.65"/>
+<circle cx="73.1" cy="372.1" r="0.7" fill="#fff" opacity="0.82"/>
+<circle cx="97.1" cy="150.5" r="1.8" fill="#fff" opacity="0.44"/>
+<circle cx="25.9" cy="103.5" r="2.0" fill="#fff" opacity="0.87"/>
+<circle cx="147.3" cy="77.1" r="1.4" fill="#fff" opacity="0.60"/>
+<circle cx="486.2" cy="344.3" r="1.9" fill="#fff" opacity="0.59"/>
+<circle cx="91.8" cy="26.9" r="1.1" fill="#fff" opacity="0.26"/>
+<circle cx="416.4" cy="239.1" r="1.0" fill="#fff" opacity="0.68"/>
+<circle cx="309.7" cy="83.4" r="2.0" fill="#fff" opacity="0.45"/>
+<circle cx="77.1" cy="288.7" r="1.7" fill="#fff" opacity="0.29"/>
+<circle cx="143.1" cy="233.0" r="1.0" fill="#fff" opacity="0.51"/>
+<circle cx="47.0" cy="46.9" r="1.3" fill="#fff" opacity="0.53"/>
+<circle cx="372.0" cy="81.6" r="1.6" fill="#fff" opacity="0.45"/>
+<circle cx="507.9" cy="318.2" r="1.9" fill="#fff" opacity="0.26"/>
+<circle cx="433.1" cy="104.0" r="1.3" fill="#fff" opacity="0.43"/>
+<circle cx="268.0" cy="198.0" r="1.7" fill="#fff" opacity="0.34"/>
+<circle cx="18.2" cy="279.6" r="1.0" fill="#fff" opacity="0.47"/>
+<circle cx="558.8" cy="275.3" r="1.3" fill="#fff" opacity="0.59"/>
+<circle cx="43.0" cy="150.1" r="1.7" fill="#fff" opacity="0.76"/>
+<circle cx="143.8" cy="264.3" r="0.8" fill="#fff" opacity="0.31"/>
+<circle cx="389.7" cy="341.1" r="1.5" fill="#fff" opacity="0.26"/>
+<circle cx="486.2" cy="216.5" r="1.4" fill="#fff" opacity="0.86"/>
+<circle cx="159.5" cy="190.9" r="1.2" fill="#fff" opacity="0.89"/>
+<circle cx="100.1" cy="92.3" r="1.1" fill="#fff" opacity="0.37"/>
+<circle cx="788.5" cy="200.9" r="0.6" fill="#fff" opacity="0.42"/>
+<circle cx="92.9" cy="82.3" r="0.9" fill="#fff" opacity="0.75"/>
+<circle cx="32.3" cy="78.1" r="0.7" fill="#fff" opacity="0.91"/>
+<circle cx="289.1" cy="49.0" r="0.7" fill="#fff" opacity="0.80"/>
+<circle cx="665.1" cy="293.5" r="2.1" fill="#fff" opacity="0.47"/>
+<circle cx="159.9" cy="115.6" r="0.8" fill="#fff" opacity="0.38"/>
+<circle cx="351.2" cy="16.2" r="1.3" fill="#fff" opacity="0.91"/>
+<circle cx="242.3" cy="127.8" r="1.0" fill="#fff" opacity="0.89"/>
+<circle cx="422.6" cy="298.8" r="0.9" fill="#fff" opacity="0.93"/>
+<circle cx="657.5" cy="284.9" r="1.6" fill="#fff" opacity="0.90"/>
+<circle cx="157.1" cy="283.2" r="1.4" fill="#fff" opacity="0.34"/>
+<circle cx="21.8" cy="131.6" r="1.7" fill="#fff" opacity="0.68"/>
+<circle cx="163.7" cy="14.8" r="1.9" fill="#fff" opacity="0.52"/>
+<circle cx="714.6" cy="152.3" r="1.6" fill="#fff" opacity="0.74"/>
+<circle cx="14.9" cy="162.2" r="0.9" fill="#fff" opacity="0.68"/>
+<circle cx="16.3" cy="73.8" r="1.6" fill="#fff" opacity="0.84"/>
+<circle cx="376.0" cy="91.9" r="1.3" fill="#fff" opacity="0.45"/>
+<circle cx="570.2" cy="251.3" r="1.5" fill="#fff" opacity="0.46"/>
+<circle cx="310.8" cy="233.1" r="1.9" fill="#fff" opacity="0.87"/>
+<circle cx="384.1" cy="251.9" r="1.9" fill="#fff" opacity="0.44"/>
+<circle cx="571.1" cy="293.4" r="0.8" fill="#fff" opacity="0.55"/>
+<circle cx="32.7" cy="314.8" r="1.1" fill="#fff" opacity="0.62"/>
+<circle cx="340.7" cy="301.7" r="1.3" fill="#fff" opacity="0.84"/>
+<circle cx="69.5" cy="87.2" r="1.1" fill="#fff" opacity="0.28"/>
+<circle cx="150.3" cy="237.2" r="0.8" fill="#fff" opacity="0.59"/>
+<circle cx="667.7" cy="324.0" r="2.2" fill="#fff" opacity="0.59"/>
+<circle cx="132.3" cy="87.1" r="1.9" fill="#fff" opacity="0.29"/>
+<circle cx="142.8" cy="127.4" r="1.4" fill="#fff" opacity="0.62"/>
+<circle cx="222.4" cy="331.6" r="1.5" fill="#fff" opacity="0.26"/>
+<circle cx="8.1" cy="168.3" r="1.1" fill="#fff" opacity="0.82"/>
+<circle cx="548.1" cy="140.2" r="0.7" fill="#fff" opacity="0.53"/>
+<circle cx="145.7" cy="109.7" r="1.2" fill="#fff" opacity="0.76"/>
+<circle cx="299.1" cy="205.4" r="1.2" fill="#fff" opacity="0.55"/>
+<circle cx="134.9" cy="272.7" r="1.6" fill="#fff" opacity="0.84"/>
+<circle cx="318.4" cy="49.1" r="0.9" fill="#fff" opacity="0.86"/>
+<circle cx="350.0" cy="358.9" r="1.0" fill="#fff" opacity="0.54"/>
+<circle cx="273.8" cy="268.3" r="1.5" fill="#fff" opacity="0.74"/>
+<circle cx="532.5" cy="70.2" r="2.2" fill="#fff" opacity="0.94"/>
+<circle cx="319.3" cy="262.9" r="1.2" fill="#fff" opacity="0.61"/>
+<circle cx="129.2" cy="306.1" r="1.5" fill="#fff" opacity="0.29"/>
+<g opacity="0.95" style="filter:drop-shadow(0 0 14px #ff2ea666)">
+<polyline points="370,125 305,195 370,265" stroke="#ff2ea6" fill="none" stroke-linecap="round" stroke-width="6"/>
+<polyline points="430,125 495,195 430,265" stroke="#ff2ea6" fill="none" stroke-linecap="round" stroke-width="6"/>
+<line x1="418" y1="115" x2="382" y2="275" stroke="#ffb300" fill="none" stroke-linecap="round" stroke-width="5"/>
+</g>
+<rect y="358" width="800" height="92" fill="#04040a" opacity="0.72"/>
+<rect y="358" width="800" height="3" fill="url(#barhtmlprograming)"/>
+<text x="36" y="398" font-family="'JetBrains Mono',monospace" font-size="26" font-weight="700" fill="#f2f6ff" letter-spacing="1">HTML PROGRAMING</text>
+<text x="36" y="426" font-family="'JetBrains Mono',monospace" font-size="13" fill="#ff2ea6" letter-spacing="3">30 VANILLA-JS CHALLENGES</text>
+<text x="764" y="426" text-anchor="end" font-family="'JetBrains Mono',monospace" font-size="12" fill="#8b93b8" letter-spacing="2">O22UGDW213</text>
+</svg>

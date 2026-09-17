@@ -3,140 +3,319 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>o22ugdw213.network — Time Loops</title>
-  <meta name="description" content="Juan J Serrano P — Tech Enthusiast, Cybersecurity, AI Explorer. iBot Synthetic Intelligence.">
-  <meta property="og:title" content="o22ugdw213.network — Time Loops">
-  <meta property="og:description" content="Tech Enthusiast | Cybersecurity | AI Explorer | iBot Synthetic Intelligence">
+  <title>Juan J Serrano P — Time Loops · o22ugdw213.network</title>
+  <meta name="description" content="Juan J Serrano P — builder of autonomous AI systems, DevOps swarms, and cybersecurity platforms. 50 repositories, cyberpunk-grade engineering.">
+  <meta property="og:title" content="Juan J Serrano P — Time Loops">
+  <meta property="og:description" content="Autonomous AI systems · DevOps swarms · Cybersecurity — 50 repos, 35 stars">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="assets/covers/nvidia-muse-dev-swarm.svg" type="image/svg+xml">
 </head>
 <body>
-  <a class="skip-link" href="#home">Skip to content</a>
-  <canvas id="particles"></canvas>
-  <div class="bg-overlay"></div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <canvas id="starfield" aria-hidden="true"></canvas>
+  <div class="nebula" aria-hidden="true"></div>
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
 
-  <nav class="navbar" id="navbar">
-    <div class="nav-brand">
-      <svg viewBox="0 0 36 36" width="28" height="28"><polygon points="18,2 31,9.5 31,26.5 18,34 5,26.5 5,9.5" stroke="#00ff9d" stroke-width="1.5" fill="rgba(0,255,157,0.06)"/><circle cx="18" cy="18" r="3" fill="#00ff9d" opacity="0.9"/></svg>
+  <header class="navbar" id="navbar">
+    <a class="nav-brand" href="#home" aria-label="o22ugdw213.network home">
+      <svg viewBox="0 0 36 36" width="26" height="26" aria-hidden="true"><polygon points="18,2 31,9.5 31,26.5 18,34 5,26.5 5,9.5" stroke="#00e5ff" stroke-width="1.5" fill="rgba(0,229,255,0.06)"/><circle cx="18" cy="18" r="3" fill="#00e5ff" opacity="0.9"/></svg>
       <span>o22ugdw213<span class="brand-dot">.network</span></span>
-    </div>
-    <div class="nav-links" id="nav-links">
+    </a>
+    <nav class="nav-links" id="nav-links" aria-label="Primary">
       <a href="#home" class="active">Home</a>
-      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#projects">Work</a>
+      <a href="#repos">Repos</a>
       <a href="#skills">Skills</a>
-      <a href="#ibot">iBot AI</a>
+      <a href="#ibot">iBot</a>
       <a href="#connect">Connect</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light theme" aria-pressed="false"><i class="fas fa-sun" aria-hidden="true"></i></button>
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><i class="fas fa-bars" aria-hidden="true"></i></button>
     </div>
-    <div class="nav-actions"><button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light theme" aria-pressed="false"><i class="fas fa-sun"></i></button><button class="nav-toggle" id="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><i class="fas fa-bars"></i></button></div>
-  </nav>
+  </header>
 
-  <section id="home" class="hero">
-    <div class="hero-content">
-      <div class="hero-label"><span class="label-dot"></span> Time Loops — Autonomous Systems <span class="status-chip">Available for collaboration</span></div>
-      <h1><span class="line">Juan J</span><span class="line gradient">Serrano P</span></h1>
-      <p class="hero-tagline">Tech Enthusiast <span class="sep">/</span> Cybersecurity <span class="sep">/</span> AI Explorer</p>
-      <p class="hero-desc">Building autonomous AI systems with 687+ skills, 15 local models, and multi-provider intelligence.</p>
-      <p class="hero-note"><span class="pulse-ring"></span> Shipping ideas from prototype to production.</p>
-      <div class="hero-metrics">
-        <div class="metric"><div class="metric-value" data-target="45">0</div><div class="metric-label">Repos</div></div>
-        <div class="metric"><div class="metric-value" data-target="35">0</div><div class="metric-label">Stars</div></div>
-        <div class="metric"><div class="metric-value" data-target="687">0</div><div class="metric-label">AI Skills</div></div>
-        <div class="metric"><div class="metric-value" data-target="14">0</div><div class="metric-label">Models</div></div>
+  <main id="main">
+  <!-- ============ HERO ============ -->
+  <section id="home" class="hero" aria-label="Introduction">
+    <div class="hero-inner">
+      <p class="hero-kicker"><span class="kicker-dot"></span>Time Loops — Autonomous Systems</p>
+      <h1>Juan J <span class="gradient-text">Serrano&nbsp;P</span></h1>
+      <p class="hero-role">AI Systems Builder <span class="sep">/</span> Cybersecurity <span class="sep">/</span> DevOps</p>
+      <p class="hero-desc">I build autonomous systems that ship: agent swarms that maintain fifty repositories in a single run, AI platforms with hundreds of skills, and security tooling held to production standards.</p>
+      <div class="hero-metrics" role="list" aria-label="Key metrics">
+        <div class="metric" role="listitem"><div class="metric-value" data-target="50">0</div><div class="metric-label">Repositories</div></div>
+        <div class="metric" role="listitem"><div class="metric-value" data-target="35">0</div><div class="metric-label">GitHub Stars</div></div>
+        <div class="metric" role="listitem"><div class="metric-value" data-target="687" data-suffix="+">0</div><div class="metric-label">AI Skills</div></div>
+        <div class="metric" role="listitem"><div class="metric-value" data-target="30">0</div><div class="metric-label">Swarm Agents</div></div>
       </div>
       <div class="hero-cta">
-        <a href="https://github.com/022UGDW213" class="cta-btn primary" target="_blank" rel="noreferrer"><i class="fab fa-github"></i> GitHub</a>
-        <a href="#ibot" class="cta-btn glass"><i class="fas fa-robot"></i> iBot Platform</a>
-        <a href="#connect" class="cta-btn outline"><i class="fas fa-envelope"></i> Connect</a>
+        <a href="#projects" class="cta-btn primary"><i class="fas fa-layer-group" aria-hidden="true"></i> Featured Work</a>
+        <a href="https://github.com/022UGDW213" class="cta-btn glass" target="_blank" rel="noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+        <a href="#connect" class="cta-btn outline"><i class="fas fa-paper-plane" aria-hidden="true"></i> Connect</a>
       </div>
     </div>
-    <div class="hero-visual">
-      <div class="orbit-ring ring-1"></div>
-      <div class="orbit-ring ring-2"></div>
-      <div class="orbit-ring ring-3"></div>
-      <div class="orbit-core"><i class="fas fa-brain"></i></div>
-      <div class="orbit-node n1"><i class="fab fa-python"></i></div>
-      <div class="orbit-node n2"><i class="fas fa-shield-halved"></i></div>
-      <div class="orbit-node n3"><i class="fab fa-aws"></i></div>
-      <div class="orbit-node n4"><i class="fas fa-microchip"></i></div>
+    <a class="scroll-hint" href="#about" aria-label="Scroll to about section"><i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="section" aria-label="About">
+    <div class="section-header reveal">
+      <span class="section-tag">Profile</span>
+      <h2>About</h2>
+      <p class="section-desc">Engineer, builder, and cyberpunk creator behind the Time Loops channel.</p>
+    </div>
+    <div class="about-grid">
+      <div class="about-card reveal">
+        <h3><i class="fas fa-terminal" aria-hidden="true"></i> What I do</h3>
+        <p>I design and run autonomous AI systems — multi-agent swarms, local LLM infrastructure, and DevOps automation — and I hold everything I ship to the same bar: verified builds, real documentation, no vapor.</p>
+        <p>My current focus is <strong>agent infrastructure</strong>: swarms of specialized agents that train on real datasets and do fleet-scale maintenance work that used to take teams.</p>
+      </div>
+      <div class="about-card reveal">
+        <h3><i class="fas fa-satellite-dish" aria-hidden="true"></i> Right now</h3>
+        <ul class="about-list">
+          <li><i class="fas fa-check" aria-hidden="true"></i> Running a 30-agent DevOps swarm trained on Hugging Face datasets</li>
+          <li><i class="fas fa-check" aria-hidden="true"></i> Building on NVIDIA's free-tier API (kimi-k3, vision + reasoning)</li>
+          <li><i class="fas fa-check" aria-hidden="true"></i> Shipping iBot Synthetic Intelligence v8.3.0-AGI</li>
+          <li><i class="fas fa-check" aria-hidden="true"></i> Creating cyberpunk music visuals for Time Loops</li>
+        </ul>
+      </div>
     </div>
   </section>
 
-  <section id="projects" class="section">
-    <div class="section-header"><span class="section-tag">Portfolio</span><h2><i class="fas fa-code"></i> Projects</h2></div>
-    <div class="projects-grid">
-      <a href="https://github.com/022UGDW213/Harmony-OS-Next" class="project-card" target="_blank" rel="noreferrer"><div class="card-glow"></div><div class="card-top"><div class="card-icon"><i class="fas fa-mobile-screen"></i></div><span class="card-lang">TypeScript</span></div><h3>Harmony-OS-Next</h3><p>HarmonyOS NEXT development, ArkTS examples, distributed capabilities</p><div class="card-meta"><i class="fas fa-star"></i> 1 <span>·</span> <i class="fas fa-code-branch"></i> 0 <span>·</span> Sep 2026</div></a>
-      <a href="https://github.com/022UGDW213/Python-Programing" class="project-card" target="_blank" rel="noreferrer"><div class="card-glow"></div><div class="card-top"><div class="card-icon"><i class="fab fa-python"></i></div><span class="card-lang">Python</span></div><h3>Python Programming</h3><p>Complete course — 16 sections from basics to AI/ML with TensorFlow</p><div class="card-meta"><i class="fas fa-star"></i> 3 <span>·</span> <i class="fas fa-code-branch"></i> 0 <span>·</span> Sep 2026</div></a>
-      <a href="https://github.com/022UGDW213/HarmonyOS" class="project-card" target="_blank" rel="noreferrer"><div class="card-glow"></div><div class="card-top"><div class="card-icon"><i class="fas fa-server"></i></div><span class="card-lang">C</span></div><h3>HarmonyOS</h3><p>Curated resources — English, Chinese, Turkish docs with glossary</p><div class="card-meta"><i class="fas fa-star"></i> 1 <span>·</span> <i class="fas fa-code-branch"></i> 0 <span>·</span> Sep 2026</div></a>
-      <a href="https://github.com/022UGDW213/vphone-cli" class="project-card" target="_blank" rel="noreferrer"><div class="card-glow"></div><div class="card-top"><div class="card-icon"><i class="fas fa-mobile-screen"></i></div><span class="card-lang">Swift</span></div><h3>vphone-cli</h3><p>Virtual iPhone CLI — boot iPhone VMs on Apple Silicon via Virtualization.framework</p><div class="card-meta"><i class="fas fa-star"></i> 1 <span>·</span> <i class="fas fa-code-branch"></i> 0 <span>·</span> Sep 2026</div></a>
-      <a href="https://github.com/022UGDW213/devecostudio-linux" class="project-card" target="_blank" rel="noreferrer"><div class="card-glow"></div><div class="card-top"><div class="card-icon"><i class="fas fa-laptop-code"></i></div><span class="card-lang">Shell</span></div><h3>devecostudio-linux</h3><p>DevEco Studio on Linux — HarmonyOS emulator running on x86_64</p><div class="card-meta"><i class="fas fa-star"></i> 1 <span>·</span> <i class="fas fa-code-branch"></i> 0 <span>·</span> Sep 2026</div></a>
-      <a href="https://github.com/022UGDW213/network" class="project-card active" target="_blank" rel="noreferrer"><div class="card-glow"></div><div class="card-top"><div class="card-icon"><i class="fas fa-globe"></i></div><span class="card-lang">HTML/CSS/JS</span></div><h3>Network</h3><p>This site — portfolio with particle animations and glassmorphism</p><div class="card-meta"><i class="fas fa-star"></i> 2 <span>·</span> <i class="fas fa-code-branch"></i> 0 <span>·</span> Sep 2026</div></a>
-      <a href="https://github.com/022UGDW213/agent-mail-intel" class="project-card" target="_blank" rel="noreferrer"><div class="card-glow"></div><div class="card-top"><div class="card-icon"><i class="fas fa-envelope-open-text"></i></div><span class="card-lang">Python</span></div><h3>Agent Mail Intel</h3><p>GitHub notification intel — tracks Copilot/agent PRs with monthly learning reports</p><div class="card-meta"><i class="fas fa-star"></i> 0 <span>·</span> <i class="fas fa-code-branch"></i> 0 <span>·</span> Sep 2026</div></a>
-      <a href="https://github.com/022UGDW213/nvidia-muse-dev-swarm" class="project-card" target="_blank" rel="noreferrer"><div class="card-glow"></div><div class="card-top"><div class="card-icon"><i class="fas fa-robot"></i></div><span class="card-lang">Python</span></div><h3>NVIDIA Muse Dev Swarm</h3><p>30-agent DevOps swarm trained on Hugging Face datasets, powered by NVIDIA's free-tier API</p><div class="card-meta"><i class="fas fa-star"></i> 0 <span>·</span> <i class="fas fa-code-branch"></i> 0 <span>·</span> Sep 2026</div></a>
+  <!-- ============ FEATURED WORK ============ -->
+  <section id="projects" class="section" aria-label="Featured projects">
+    <div class="section-header reveal">
+      <span class="section-tag">Portfolio</span>
+      <h2>Featured Work</h2>
+      <p class="section-desc">Ten builds that show range — each with what it does, what was hard, and what it proves.</p>
+    </div>
+    <div class="featured-grid">
+
+      <article class="work-card reveal">
+        <a class="work-cover" href="https://github.com/022UGDW213/nvidia-muse-dev-swarm" target="_blank" rel="noreferrer" aria-label="nvidia-muse-dev-swarm on GitHub">
+          <img src="assets/covers/nvidia-muse-dev-swarm.svg" alt="Cosmic cover art for NVIDIA Muse Dev Swarm" loading="lazy" width="800" height="450">
+        </a>
+        <div class="work-body">
+          <div class="work-top"><span class="work-lang">Python</span><span class="work-stars"><i class="fas fa-star" aria-hidden="true"></i> 0</span></div>
+          <h3><a href="https://github.com/022UGDW213/nvidia-muse-dev-swarm" target="_blank" rel="noreferrer">NVIDIA Muse Dev Swarm</a></h3>
+          <p class="work-blurb">Built in one session with Muse: a 30-agent DevOps swarm that trains its skill knowledge from Hugging Face datasets — verified live against NVIDIA's free-tier API, where kimi-k3 answered with vision and streaming reasoning. The hard part was giving 30 specialists one shared task queue with skill lookup and zero GPU. It proves agent infrastructure can be built fast, cheap, and reproducible.</p>
+          <div class="work-tags"><span>Python</span><span>sqlite</span><span>Hugging Face</span><span>NVIDIA API</span></div>
+          <p class="work-meta">Updated Sep 2026 · <a href="https://github.com/022UGDW213/nvidia-muse-dev-swarm" target="_blank" rel="noreferrer">View repo <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a></p>
+        </div>
+      </article>
+
+      <article class="work-card reveal">
+        <a class="work-cover" href="https://github.com/022UGDW213/agent-mail-intel" target="_blank" rel="noreferrer" aria-label="agent-mail-intel on GitHub">
+          <img src="assets/covers/agent-mail-intel.svg" alt="Cosmic cover art for Agent Mail Intel" loading="lazy" width="800" height="450">
+        </a>
+        <div class="work-body">
+          <div class="work-top"><span class="work-lang">Python</span><span class="work-stars"><i class="fas fa-star" aria-hidden="true"></i> 0</span></div>
+          <h3><a href="https://github.com/022UGDW213/agent-mail-intel" target="_blank" rel="noreferrer">Agent Mail Intel</a></h3>
+          <p class="work-blurb">Turns GitHub notification email into structured intelligence: monthly reports and learning patterns mined from Copilot and agent pull requests. Seeded from 50 emails across 15 microsoft/agent-framework PRs, it surfaced real patterns like tool-approval trust boundaries. Your inbox is a training dataset if you treat it like one.</p>
+          <div class="work-tags"><span>Python</span><span>Gmail API</span><span>Analytics</span></div>
+          <p class="work-meta">Updated Sep 2026 · <a href="https://github.com/022UGDW213/agent-mail-intel" target="_blank" rel="noreferrer">View repo <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a></p>
+        </div>
+      </article>
+
+      <article class="work-card reveal">
+        <a class="work-cover" href="https://github.com/022UGDW213/nvidia-muse-dev-swarm" target="_blank" rel="noreferrer" aria-label="dev-swarm code on GitHub">
+          <img src="assets/covers/dev-swarm.svg" alt="Cosmic cover art for Dev Swarm" loading="lazy" width="800" height="450">
+        </a>
+        <div class="work-body">
+          <div class="work-top"><span class="work-lang">Python</span><span class="work-stars"><i class="fas fa-cogs" aria-hidden="true"></i> engine</span></div>
+          <h3><a href="https://github.com/022UGDW213/nvidia-muse-dev-swarm" target="_blank" rel="noreferrer">Dev Swarm</a></h3>
+          <p class="work-blurb">The engine behind the fleet: a coordinator plus 30 detached DevOps specialists — docker through service-mesh — pulling tasks from a shared sqlite queue, each consulting HF-trained skill context before executing. It updated 50 repositories in a single sweep. Swarms beat scripts for fleet-scale maintenance.</p>
+          <div class="work-tags"><span>Python</span><span>sqlite</span><span>DevOps</span><span>Multi-agent</span></div>
+          <p class="work-meta">Ships inside nvidia-muse-dev-swarm · <a href="https://github.com/022UGDW213/nvidia-muse-dev-swarm" target="_blank" rel="noreferrer">View code <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a></p>
+        </div>
+      </article>
+
+      <article class="work-card reveal">
+        <a class="work-cover" href="https://github.com/022UGDW213/ibot-synthetic-intelligence" target="_blank" rel="noreferrer" aria-label="ibot-synthetic-intelligence on GitHub">
+          <img src="assets/covers/ibot-synthetic-intelligence.svg" alt="Cosmic cover art for iBot Synthetic Intelligence" loading="lazy" width="800" height="450">
+        </a>
+        <div class="work-body">
+          <div class="work-top"><span class="work-lang">JavaScript</span><span class="work-stars"><i class="fas fa-star" aria-hidden="true"></i> 1</span></div>
+          <h3><a href="https://github.com/022UGDW213/ibot-synthetic-intelligence" target="_blank" rel="noreferrer">iBot Synthetic Intelligence</a></h3>
+          <p class="work-blurb">The flagship: an autonomous AI platform (v8.3.0-AGI) with multi-provider failover, local models, and a 687+ skill marketplace with a drag-and-drop pipeline composer. The hard part was unifying Bedrock, DeepSeek, OpenAI, Ollama and Cloudflare behind one agent interface. Serious AI platforms can be assembled, not just consumed.</p>
+          <div class="work-tags"><span>JavaScript</span><span>AI Agents</span><span>Multi-provider</span></div>
+          <p class="work-meta">Updated Sep 2026 · <a href="https://github.com/022UGDW213/ibot-synthetic-intelligence" target="_blank" rel="noreferrer">View repo <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a></p>
+        </div>
+      </article>
+
+      <article class="work-card reveal">
+        <a class="work-cover" href="https://github.com/022UGDW213/Harmony-OS-Next" target="_blank" rel="noreferrer" aria-label="Harmony-OS-Next on GitHub">
+          <img src="assets/covers/harmony-os-next.svg" alt="Cosmic cover art for Harmony-OS-Next" loading="lazy" width="800" height="450">
+        </a>
+        <div class="work-body">
+          <div class="work-top"><span class="work-lang">Shell</span><span class="work-stars"><i class="fas fa-star" aria-hidden="true"></i> 1</span></div>
+          <h3><a href="https://github.com/022UGDW213/Harmony-OS-Next" target="_blank" rel="noreferrer">Harmony-OS-Next</a></h3>
+          <p class="work-blurb">Full DevEco Studio project scaffolding in ArkTS, plus scripts that build and boot a HarmonyOS dev VM under QEMU/KVM on Ubuntu. The hard part was making Huawei's phone-centric toolchain run headless on a Linux VM. Cross-ecosystem mobile dev, outside the walled garden.</p>
+          <div class="work-tags"><span>ArkTS</span><span>QEMU/KVM</span><span>Shell</span></div>
+          <p class="work-meta">Updated Sep 2026 · <a href="https://github.com/022UGDW213/Harmony-OS-Next" target="_blank" rel="noreferrer">View repo <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a></p>
+        </div>
+      </article>
+
+      <article class="work-card reveal">
+        <a class="work-cover" href="https://github.com/022UGDW213/cyberlab-security-platform-main" target="_blank" rel="noreferrer" aria-label="cyberlab-security-platform-main on GitHub">
+          <img src="assets/covers/cyberlab-security-platform.svg" alt="Cosmic cover art for CyberLab Security Platform" loading="lazy" width="800" height="450">
+        </a>
+        <div class="work-body">
+          <div class="work-top"><span class="work-lang">TypeScript</span><span class="work-stars"><i class="fas fa-star" aria-hidden="true"></i> 0</span></div>
+          <h3><a href="https://github.com/022UGDW213/cyberlab-security-platform-main" target="_blank" rel="noreferrer">CyberLab Security Platform</a></h3>
+          <p class="work-blurb">A defensive-security lab platform kept in fighting shape: dependencies bumped on Dependabot signals, dead demo links triaged, production build verified green. The hard part is the unglamorous one — keeping a sprawling TS/Python security codebase building clean. Security tooling deserves prod-grade CI.</p>
+          <div class="work-tags"><span>TypeScript</span><span>Python</span><span>Security</span></div>
+          <p class="work-meta">Updated Sep 2026 · <a href="https://github.com/022UGDW213/cyberlab-security-platform-main" target="_blank" rel="noreferrer">View repo <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a></p>
+        </div>
+      </article>
+
+      <article class="work-card reveal">
+        <a class="work-cover" href="https://github.com/022UGDW213/Python-Programing" target="_blank" rel="noreferrer" aria-label="Python-Programing on GitHub">
+          <img src="assets/covers/python-programing.svg" alt="Cosmic cover art for Python Programing" loading="lazy" width="800" height="450">
+        </a>
+        <div class="work-body">
+          <div class="work-top"><span class="work-lang">Python</span><span class="work-stars"><i class="fas fa-star" aria-hidden="true"></i> 3</span></div>
+          <h3><a href="https://github.com/022UGDW213/Python-Programing" target="_blank" rel="noreferrer">Python Programing</a></h3>
+          <p class="work-blurb">A complete Python course: 74 scripts dragged from Python 2 to Python 3, sixteen sections from basics to TensorFlow — 73 of 74 run clean on 3.11+. Maintenance is a feature, and modernizing a decade-old course without breaking its pedagogy is the whole game.</p>
+          <div class="work-tags"><span>Python</span><span>Education</span><span>TensorFlow</span></div>
+          <p class="work-meta">Updated Sep 2026 · <a href="https://github.com/022UGDW213/Python-Programing" target="_blank" rel="noreferrer">View repo <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a></p>
+        </div>
+      </article>
+
+      <article class="work-card reveal">
+        <a class="work-cover" href="https://github.com/022UGDW213/HTML-Programing" target="_blank" rel="noreferrer" aria-label="HTML-Programing on GitHub">
+          <img src="assets/covers/html-programing.svg" alt="Cosmic cover art for HTML Programing" loading="lazy" width="800" height="450">
+        </a>
+        <div class="work-body">
+          <div class="work-top"><span class="work-lang">HTML</span><span class="work-stars"><i class="fas fa-star" aria-hidden="true"></i> 2</span></div>
+          <h3><a href="https://github.com/022UGDW213/HTML-Programing" target="_blank" rel="noreferrer">HTML Programing</a></h3>
+          <p class="work-blurb">Thirty vanilla-JS challenges (JavaScript30), kept current against an active upstream — 33 commits merged with conflict resolution. Fundamentals don't expire, but repos rot. This one doesn't.</p>
+          <div class="work-tags"><span>JavaScript</span><span>HTML/CSS</span><span>Education</span></div>
+          <p class="work-meta">Updated Sep 2026 · <a href="https://github.com/022UGDW213/HTML-Programing" target="_blank" rel="noreferrer">View repo <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a></p>
+        </div>
+      </article>
+
+      <article class="work-card reveal">
+        <a class="work-cover" href="https://github.com/022UGDW213/Qwen" target="_blank" rel="noreferrer" aria-label="Qwen on GitHub">
+          <img src="assets/covers/qwen.svg" alt="Cosmic cover art for Qwen local LLM work" loading="lazy" width="800" height="450">
+        </a>
+        <div class="work-body">
+          <div class="work-top"><span class="work-lang">Python</span><span class="work-stars"><i class="fas fa-star" aria-hidden="true"></i> 1</span></div>
+          <h3><a href="https://github.com/022UGDW213/Qwen" target="_blank" rel="noreferrer">Qwen · Local LLMs</a></h3>
+          <p class="work-blurb">Local-first LLM experiments: GGUF quants, Ollama wiring, and Kimi CLI integration on a real VM budget. The hard part is physics — fitting useful models into actual disk and RAM. Local AI is a deployment strategy, not a hobby.</p>
+          <div class="work-tags"><span>Ollama</span><span>GGUF</span><span>LLMs</span></div>
+          <p class="work-meta">Updated Sep 2026 · <a href="https://github.com/022UGDW213/Qwen" target="_blank" rel="noreferrer">View repo <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a></p>
+        </div>
+      </article>
+
+      <article class="work-card reveal">
+        <a class="work-cover" href="https://github.com/022UGDW213/aws-cli" target="_blank" rel="noreferrer" aria-label="aws-cli on GitHub">
+          <img src="assets/covers/aws-cli.svg" alt="Cosmic cover art for AWS CLI fork" loading="lazy" width="800" height="450">
+        </a>
+        <div class="work-body">
+          <div class="work-top"><span class="work-lang">Python</span><span class="work-stars"><i class="fas fa-star" aria-hidden="true"></i> 1</span></div>
+          <h3><a href="https://github.com/022UGDW213/aws-cli" target="_blank" rel="noreferrer">AWS CLI Fork</a></h3>
+          <p class="work-blurb">A working fork of the AWS CLI carrying local customizations. The hard part of any giant-tool fork is tracking a fast-moving upstream without losing your patches. Own your tools.</p>
+          <div class="work-tags"><span>Python</span><span>AWS</span><span>CLI</span></div>
+          <p class="work-meta">Updated Sep 2026 · <a href="https://github.com/022UGDW213/aws-cli" target="_blank" rel="noreferrer">View repo <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a></p>
+        </div>
+      </article>
+
     </div>
   </section>
 
-  <section id="skills" class="section">
-    <div class="section-header"><span class="section-tag">Capabilities</span><h2><i class="fas fa-bolt"></i> Skills & Tech</h2></div>
-    <div class="skills-categories">
-      <div class="skill-category"><h3><i class="fas fa-code"></i> Languages</h3><div class="skill-pills"><span class="pill"><i class="fab fa-python"></i> Python</span><span class="pill"><i class="fab fa-html5"></i> HTML5</span><span class="pill"><i class="fab fa-css3-alt"></i> CSS3</span><span class="pill"><i class="fab fa-js"></i> JavaScript</span><span class="pill">C/C++</span><span class="pill">TypeScript</span></div></div>
-      <div class="skill-category"><h3><i class="fas fa-brain"></i> AI / ML</h3><div class="skill-pills"><span class="pill hot">TensorFlow</span><span class="pill hot">PyTorch</span><span class="pill hot">Ollama</span><span class="pill">HuggingFace</span><span class="pill">scikit-learn</span><span class="pill">LangChain</span><span class="pill">OpenCV</span></div></div>
-      <div class="skill-category"><h3><i class="fas fa-shield-halved"></i> Security</h3><div class="skill-pills"><span class="pill">Pen Testing</span><span class="pill">Threat Intel</span><span class="pill">Network Security</span><span class="pill">OWASP</span><span class="pill">Encryption</span></div></div>
-      <div class="skill-category"><h3><i class="fas fa-cloud"></i> Cloud / DevOps</h3><div class="skill-pills"><span class="pill"><i class="fab fa-aws"></i> AWS</span><span class="pill">EC2/Bedrock</span><span class="pill"><i class="fab fa-docker"></i> Docker</span><span class="pill"><i class="fab fa-linux"></i> Linux</span><span class="pill">Cloudflare</span><span class="pill"><i class="fab fa-git-alt"></i> Git</span></div></div>
+  <!-- ============ ALL REPOS ============ -->
+  <section id="repos" class="section" aria-label="All repositories">
+    <div class="section-header reveal">
+      <span class="section-tag">Index</span>
+      <h2>All Repositories</h2>
+      <p class="section-desc">Every public repo, live from GitHub — search, sort, and explore.</p>
+    </div>
+    <div class="repo-toolbar reveal">
+      <div class="repo-search">
+        <i class="fas fa-search" aria-hidden="true"></i>
+        <input type="search" id="repo-search" placeholder="Search 50 repositories…" aria-label="Search repositories">
+      </div>
+      <div class="repo-controls">
+        <select id="repo-sort" aria-label="Sort repositories">
+          <option value="stars">Top starred</option>
+          <option value="updated">Recently updated</option>
+          <option value="name">Name A–Z</option>
+        </select>
+        <label class="repo-fork-toggle"><input type="checkbox" id="repo-hide-forks"> Hide forks</label>
+      </div>
+    </div>
+    <p class="repo-count reveal" id="repo-count" role="status">Loading repositories…</p>
+    <ul class="repo-list reveal" id="repo-list"></ul>
+    <p class="repo-note">Data: <a href="data/repos.json">data/repos.json</a> · refreshed 2026-09-17 · <a href="https://github.com/022UGDW213?tab=repositories" target="_blank" rel="noreferrer">full profile on GitHub</a></p>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section id="skills" class="section" aria-label="Skills">
+    <div class="section-header reveal">
+      <span class="section-tag">Capabilities</span>
+      <h2>Skills &amp; Tech</h2>
+      <p class="section-desc">The stack behind the builds above.</p>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-category reveal"><h3><i class="fas fa-code" aria-hidden="true"></i> Languages</h3><div class="skill-pills"><span class="pill">Python</span><span class="pill">TypeScript</span><span class="pill">JavaScript</span><span class="pill">HTML5</span><span class="pill">CSS3</span><span class="pill">C/C++</span><span class="pill">Shell</span><span class="pill">ArkTS</span></div></div>
+      <div class="skill-category reveal"><h3><i class="fas fa-brain" aria-hidden="true"></i> AI / ML</h3><div class="skill-pills"><span class="pill hot">Ollama</span><span class="pill hot">Hugging Face</span><span class="pill hot">TensorFlow</span><span class="pill hot">PyTorch</span><span class="pill">scikit-learn</span><span class="pill">LangChain</span><span class="pill">OpenCV</span><span class="pill">GGUF / quants</span></div></div>
+      <div class="skill-category reveal"><h3><i class="fas fa-shield-halved" aria-hidden="true"></i> Security</h3><div class="skill-pills"><span class="pill">Pen Testing</span><span class="pill">Threat Intel</span><span class="pill">Network Security</span><span class="pill">OWASP</span><span class="pill">CVE triage</span><span class="pill">Encryption</span></div></div>
+      <div class="skill-category reveal"><h3><i class="fas fa-cloud" aria-hidden="true"></i> Cloud / DevOps</h3><div class="skill-pills"><span class="pill hot">Docker</span><span class="pill hot">Kubernetes</span><span class="pill hot">Terraform</span><span class="pill">AWS</span><span class="pill">GitHub Actions</span><span class="pill">Ansible</span><span class="pill">Linux</span><span class="pill">Git</span></div></div>
     </div>
   </section>
 
-  <section id="ibot" class="section ibot-section">
-    <div class="section-header"><span class="section-tag">Flagship</span><h2><i class="fas fa-robot"></i> iBot Synthetic Intelligence</h2><p class="section-desc">Autonomous AI platform — multi-provider, local models, 687+ skills</p></div>
+  <!-- ============ IBOT ============ -->
+  <section id="ibot" class="section ibot-band" aria-label="iBot Synthetic Intelligence">
+    <div class="section-header reveal">
+      <span class="section-tag">Flagship</span>
+      <h2><i class="fas fa-robot" aria-hidden="true"></i> iBot Synthetic Intelligence</h2>
+      <p class="section-desc">Autonomous AI platform — multi-provider, local models, 687+ skills. <a href="https://github.com/022UGDW213/ibot-synthetic-intelligence" target="_blank" rel="noreferrer">View the repo</a></p>
+    </div>
     <div class="ibot-grid">
-      <div class="ibot-card"><div class="ibot-card-num">687+</div><div class="ibot-card-title">AI Skills</div><div class="ibot-card-desc">Search, code, automate, analyze — skill marketplace with pipelines</div></div>
-      <div class="ibot-card"><div class="ibot-card-num">14</div><div class="ibot-card-title">Local Models</div><div class="ibot-card-desc">Gemma3, Llama4, Qwen3, DeepSeek-R1, Mistral — 4 with vision</div></div>
-      <div class="ibot-card"><div class="ibot-card-num">5</div><div class="ibot-card-title">Providers</div><div class="ibot-card-desc">Bedrock, DeepSeek, OpenAI, Ollama, Cloudflare — auto-failover</div></div>
-      <div class="ibot-card"><div class="ibot-card-num">23</div><div class="ibot-card-title">ML Libs</div><div class="ibot-card-desc">TensorFlow, PyTorch, Transformers, ONNX, ChromaDB, FastAPI</div></div>
+      <div class="ibot-card reveal"><div class="ibot-num">687+</div><div class="ibot-title">AI Skills</div><p>Search, code, automate, analyze — skill marketplace with pipelines</p></div>
+      <div class="ibot-card reveal"><div class="ibot-num">14</div><div class="ibot-title">Local Models</div><p>Gemma3, Llama4, Qwen3, DeepSeek-R1, Mistral — 4 with vision</p></div>
+      <div class="ibot-card reveal"><div class="ibot-num">5</div><div class="ibot-title">Providers</div><p>Bedrock, DeepSeek, OpenAI, Ollama, Cloudflare — auto-failover</p></div>
+      <div class="ibot-card reveal"><div class="ibot-num">23</div><div class="ibot-title">ML Libs</div><p>TensorFlow, PyTorch, Transformers, ONNX, ChromaDB, FastAPI</p></div>
     </div>
-    <div class="ibot-features">
-      <div class="ibot-feature"><i class="fas fa-wand-magic-sparkles"></i> Copilot — web search, file/PDF reading, vision</div>
-      <div class="ibot-feature"><i class="fas fa-code"></i> Full IDE — Monaco editor, Git, AI code review</div>
-      <div class="ibot-feature"><i class="fas fa-diagram-project"></i> Pipeline composer — drag-and-drop skill chaining</div>
-      <div class="ibot-feature"><i class="fas fa-users"></i> Group chat — 5 AI characters collaborate</div>
-      <div class="ibot-feature"><i class="fas fa-eye"></i> Vision — analyze images with Gemma3 locally</div>
-      <div class="ibot-feature"><i class="fas fa-cloud-arrow-up"></i> Auto-deploy — push to GitHub via Copilot</div>
-    </div>
+    <ul class="ibot-features">
+      <li class="reveal"><i class="fas fa-wand-magic-sparkles" aria-hidden="true"></i> Copilot — web search, file/PDF reading, vision</li>
+      <li class="reveal"><i class="fas fa-code" aria-hidden="true"></i> Full IDE — Monaco editor, Git, AI code review</li>
+      <li class="reveal"><i class="fas fa-diagram-project" aria-hidden="true"></i> Pipeline composer — drag-and-drop skill chaining</li>
+      <li class="reveal"><i class="fas fa-users" aria-hidden="true"></i> Group chat — 5 AI characters collaborate</li>
+      <li class="reveal"><i class="fas fa-eye" aria-hidden="true"></i> Vision — analyze images with Gemma3 locally</li>
+      <li class="reveal"><i class="fas fa-cloud-arrow-up" aria-hidden="true"></i> Auto-deploy — push to GitHub via Copilot</li>
+    </ul>
   </section>
 
-  <section id="connect" class="section">
-    <div class="section-header"><span class="section-tag">Social</span><h2><i class="fas fa-link"></i> Connect</h2></div>
+  <!-- ============ CONNECT ============ -->
+  <section id="connect" class="section" aria-label="Connect">
+    <div class="section-header reveal">
+      <span class="section-tag">Social</span>
+      <h2>Connect</h2>
+      <p class="section-desc">Find me building in the open.</p>
+    </div>
     <div class="connect-grid">
-      <a href="https://github.com/022UGDW213" class="connect-card" target="_blank"><i class="fab fa-github"></i><span class="connect-name">GitHub</span><span class="connect-handle">@022UGDW213</span></a>
-      <a href="https://youtube.com/@O22UGDW213" class="connect-card" target="_blank"><i class="fab fa-youtube"></i><span class="connect-name">YouTube</span><span class="connect-handle">@O22UGDW213</span></a>
-      <a href="https://www.tiktok.com/@o22ugdw213" class="connect-card" target="_blank"><i class="fab fa-tiktok"></i><span class="connect-name">TikTok</span><span class="connect-handle">@o22ugdw213</span></a>
-      <a href="https://sites.google.com/view/o22ugdw213/home" class="connect-card" target="_blank"><i class="fas fa-globe"></i><span class="connect-name">Website</span><span class="connect-handle">o22ugdw213.network</span></a>
+      <a href="https://github.com/022UGDW213" class="connect-card reveal" target="_blank" rel="noreferrer"><i class="fab fa-github" aria-hidden="true"></i><span class="connect-name">GitHub</span><span class="connect-handle">@022UGDW213</span></a>
+      <a href="https://youtube.com/@O22UGDW213" class="connect-card reveal" target="_blank" rel="noreferrer"><i class="fab fa-youtube" aria-hidden="true"></i><span class="connect-name">YouTube</span><span class="connect-handle">Time Loops</span></a>
+      <a href="https://www.tiktok.com/@o22ugdw213" class="connect-card reveal" target="_blank" rel="noreferrer"><i class="fab fa-tiktok" aria-hidden="true"></i><span class="connect-name">TikTok</span><span class="connect-handle">@o22ugdw213</span></a>
+      <a href="https://sites.google.com/view/o22ugdw213/home" class="connect-card reveal" target="_blank" rel="noreferrer"><i class="fas fa-globe" aria-hidden="true"></i><span class="connect-name">Website</span><span class="connect-handle">o22ugdw213.network</span></a>
     </div>
   </section>
+  </main>
 
-  <div class="scroll-progress" id="scroll-progress"></div>
   <footer class="footer">
-    <p>&copy; 2024-2026 <strong>Time Loops</strong> — Juan J Serrano P #o22ugdw213</p>
-    <p class="footer-sub">Built with <span style="color:#00ff9d">iBot Synthetic Intelligence</span></p>
+    <p>&copy; 2024–2026 <strong>Time Loops</strong> — Juan J Serrano P · #o22ugdw213</p>
+    <p class="footer-sub">Designed &amp; built with <span class="footer-accent">Muse</span> · 50 repos · 35 stars · dark cosmic system</p>
   </footer>
 
-<script>
-  const themeToggle=document.getElementById("theme-toggle");
-  const savedTheme=localStorage.getItem("network-theme");
-  if(savedTheme==="light"){document.body.classList.add("light-theme");themeToggle.setAttribute("aria-pressed","true");themeToggle.setAttribute("aria-label","Switch to dark theme");themeToggle.innerHTML="<i class=\"fas fa-moon\"></i>";}
-  themeToggle.addEventListener("click",()=>{const light=document.body.classList.toggle("light-theme");localStorage.setItem("network-theme",light?"light":"dark");themeToggle.setAttribute("aria-pressed",String(light));themeToggle.setAttribute("aria-label",light?"Switch to dark theme":"Switch to light theme");themeToggle.innerHTML=light?"<i class=\"fas fa-moon\"></i>":"<i class=\"fas fa-sun\"></i>";});
-const canvas=document.getElementById('particles'),ctx=canvas.getContext('2d');let particles=[];
-function resize(){canvas.width=innerWidth;canvas.height=innerHeight}addEventListener('resize',resize);resize();
-class P{constructor(){this.reset()}reset(){this.x=Math.random()*canvas.width;this.y=Math.random()*canvas.height;this.s=Math.random()*1.5+.5;this.sx=(Math.random()-.5)*.3;this.sy=(Math.random()-.5)*.3;this.o=Math.random()*.4+.1}update(){this.x+=this.sx;this.y+=this.sy;if(this.x<0||this.x>canvas.width||this.y<0||this.y>canvas.height)this.reset()}draw(){ctx.fillStyle=`rgba(0,255,157,${this.o})`;ctx.beginPath();ctx.arc(this.x,this.y,this.s,0,Math.PI*2);ctx.fill()}}
-for(let i=0;i<80;i++)particles.push(new P);
-function anim(){ctx.clearRect(0,0,canvas.width,canvas.height);particles.forEach(p=>{p.update();p.draw()});for(let i=0;i<particles.length;i++)for(let j=i+1;j<particles.length;j++){const dx=particles[i].x-particles[j].x,dy=particles[i].y-particles[j].y,d=Math.sqrt(dx*dx+dy*dy);if(d<120){ctx.strokeStyle=`rgba(0,255,157,${.06*(1-d/120)})`;ctx.lineWidth=.5;ctx.beginPath();ctx.moveTo(particles[i].x,particles[i].y);ctx.lineTo(particles[j].x,particles[j].y);ctx.stroke()}}requestAnimationFrame(anim)}anim();
-const obs=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting)x.target.classList.add('visible')}),{threshold:.1});
-document.querySelectorAll('.project-card,.skill-category,.ibot-card,.ibot-feature,.connect-card,.metric').forEach(el=>obs.observe(el));
-const cObs=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){const el=x.target,t=+el.dataset.target;let c=0;const s=Math.max(1,Math.floor(t/40)),tm=setInterval(()=>{c+=s;if(c>=t){c=t;clearInterval(tm)}el.textContent=c>=100?c+'+':c},30);cObs.unobserve(el)}}),{threshold:.5});
-document.querySelectorAll('.metric-value').forEach(el=>cObs.observe(el));
-addEventListener('scroll',()=>{document.getElementById('navbar').classList.toggle('scrolled',scrollY>50);document.getElementById('scroll-progress').style.width=((scrollY/(document.documentElement.scrollHeight-innerHeight))*100)+'%';document.querySelectorAll('section[id]').forEach(s=>{const l=document.querySelector(`.nav-links a[href="#${s.id}"]`);if(l)l.classList.toggle('active',scrollY>=s.offsetTop-100&&scrollY<s.offsetTop+s.offsetHeight)})});
-document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();document.querySelector(a.getAttribute('href'))?.scrollIntoView({behavior:'smooth'});document.getElementById('nav-links').classList.remove('open')}));
-document.getElementById('nav-toggle').addEventListener('click',()=>{const open=document.getElementById('nav-links').classList.toggle('open');document.getElementById('nav-toggle').setAttribute('aria-expanded',String(open));});
-</script>
+  <script src="assets/js/main.js" defer></script>
 </body>
 </html>

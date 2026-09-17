@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="AWS CLI Fork cover art">
+<defs>
+<linearGradient id="bgawscli" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#04080c"/><stop offset="1" stop-color="#0a2430"/>
+</linearGradient>
+<radialGradient id="neb1awscli" cx="0.25" cy="0.2" r="0.55">
+<stop offset="0" stop-color="#00e5ff" stop-opacity="0.28"/><stop offset="1" stop-color="#00e5ff" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="neb2awscli" cx="0.8" cy="0.85" r="0.6">
+<stop offset="0" stop-color="#ff9d00" stop-opacity="0.24"/><stop offset="1" stop-color="#ff9d00" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="barawscli" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#00e5ff"/><stop offset="1" stop-color="#ff9d00"/>
+</linearGradient>
+</defs>
+<rect width="800" height="450" fill="url(#bgawscli)"/>
+<rect width="800" height="450" fill="url(#neb1awscli)"/>
+<rect width="800" height="450" fill="url(#neb2awscli)"/>
+<circle cx="144.2" cy="186.4" r="0.7" fill="#fff" opacity="0.62"/>
+<circle cx="735.7" cy="335.2" r="1.4" fill="#fff" opacity="0.82"/>
+<circle cx="644.7" cy="81.9" r="0.7" fill="#fff" opacity="0.39"/>
+<circle cx="467.0" cy="257.7" r="0.9" fill="#fff" opacity="0.77"/>
+<circle cx="456.5" cy="177.4" r="1.4" fill="#fff" opacity="0.34"/>
+<circle cx="476.5" cy="371.3" r="0.8" fill="#fff" opacity="0.73"/>
+<circle cx="365.7" cy="297.2" r="1.3" fill="#fff" opacity="0.80"/>
+<circle cx="362.9" cy="114.7" r="1.0" fill="#fff" opacity="0.54"/>
+<circle cx="716.5" cy="129.7" r="1.3" fill="#fff" opacity="0.44"/>
+<circle cx="153.0" cy="322.1" r="0.8" fill="#fff" opacity="0.63"/>
+<circle cx="551.2" cy="119.8" r="1.9" fill="#fff" opacity="0.77"/>
+<circle cx="555.5" cy="3.9" r="1.8" fill="#fff" opacity="0.84"/>
+<circle cx="717.2" cy="162.6" r="1.1" fill="#fff" opacity="0.38"/>
+<circle cx="579.5" cy="325.9" r="0.8" fill="#fff" opacity="0.62"/>
+<circle cx="295.2" cy="54.5" r="2.1" fill="#fff" opacity="0.63"/>
+<circle cx="336.3" cy="312.3" r="2.0" fill="#fff" opacity="0.78"/>
+<circle cx="708.2" cy="53.6" r="1.7" fill="#fff" opacity="0.53"/>
+<circle cx="259.7" cy="233.5" r="2.1" fill="#fff" opacity="0.41"/>
+<circle cx="182.3" cy="122.5" r="2.1" fill="#fff" opacity="0.30"/>
+<circle cx="425.5" cy="23.1" r="0.7" fill="#fff" opacity="0.29"/>
+<circle cx="64.3" cy="173.7" r="1.5" fill="#fff" opacity="0.92"/>
+<circle cx="355.5" cy="189.1" r="1.1" fill="#fff" opacity="0.28"/>
+<circle cx="260.0" cy="264.8" r="2.0" fill="#fff" opacity="0.28"/>
+<circle cx="738.7" cy="252.7" r="0.9" fill="#fff" opacity="0.70"/>
+<circle cx="408.1" cy="14.1" r="1.9" fill="#fff" opacity="0.48"/>
+<circle cx="696.9" cy="317.5" r="1.4" fill="#fff" opacity="0.28"/>
+<circle cx="185.1" cy="3.4" r="1.8" fill="#fff" opacity="0.34"/>
+<circle cx="623.4" cy="355.6" r="2.0" fill="#fff" opacity="0.31"/>
+<circle cx="176.3" cy="88.7" r="1.7" fill="#fff" opacity="0.27"/>
+<circle cx="72.2" cy="146.0" r="1.9" fill="#fff" opacity="0.67"/>
+<circle cx="111.3" cy="171.3" r="1.5" fill="#fff" opacity="0.26"/>
+<circle cx="287.4" cy="126.9" r="1.6" fill="#fff" opacity="0.81"/>
+<circle cx="91.9" cy="107.4" r="1.7" fill="#fff" opacity="0.83"/>
+<circle cx="408.6" cy="108.7" r="0.7" fill="#fff" opacity="0.37"/>
+<circle cx="225.1" cy="190.3" r="0.7" fill="#fff" opacity="0.55"/>
+<circle cx="242.9" cy="135.7" r="1.7" fill="#fff" opacity="0.86"/>
+<circle cx="425.1" cy="252.6" r="0.6" fill="#fff" opacity="0.58"/>
+<circle cx="225.0" cy="16.9" r="2.0" fill="#fff" opacity="0.55"/>
+<circle cx="295.5" cy="29.0" r="1.0" fill="#fff" opacity="0.48"/>
+<circle cx="532.6" cy="223.3" r="1.5" fill="#fff" opacity="0.44"/>
+<circle cx="666.3" cy="306.1" r="1.1" fill="#fff" opacity="0.33"/>
+<circle cx="574.7" cy="59.6" r="1.8" fill="#fff" opacity="0.35"/>
+<circle cx="437.6" cy="182.3" r="1.9" fill="#fff" opacity="0.25"/>
+<circle cx="526.5" cy="89.0" r="0.9" fill="#fff" opacity="0.47"/>
+<circle cx="370.2" cy="49.1" r="2.0" fill="#fff" opacity="0.53"/>
+<circle cx="169.0" cy="146.6" r="1.7" fill="#fff" opacity="0.29"/>
+<circle cx="229.3" cy="112.4" r="2.1" fill="#fff" opacity="0.63"/>
+<circle cx="354.6" cy="355.2" r="0.8" fill="#fff" opacity="0.51"/>
+<circle cx="611.1" cy="210.1" r="1.8" fill="#fff" opacity="0.93"/>
+<circle cx="120.9" cy="317.7" r="1.8" fill="#fff" opacity="0.68"/>
+<circle cx="64.0" cy="311.3" r="1.9" fill="#fff" opacity="0.49"/>
+<circle cx="610.8" cy="177.3" r="1.9" fill="#fff" opacity="0.66"/>
+<circle cx="101.2" cy="362.8" r="1.3" fill="#fff" opacity="0.78"/>
+<circle cx="337.7" cy="306.4" r="1.6" fill="#fff" opacity="0.64"/>
+<circle cx="542.0" cy="282.1" r="2.1" fill="#fff" opacity="0.47"/>
+<circle cx="111.7" cy="80.6" r="1.8" fill="#fff" opacity="0.28"/>
+<circle cx="365.1" cy="354.7" r="1.1" fill="#fff" opacity="0.45"/>
+<circle cx="64.0" cy="372.0" r="1.2" fill="#fff" opacity="0.62"/>
+<circle cx="8.5" cy="97.7" r="0.8" fill="#fff" opacity="0.58"/>
+<circle cx="580.0" cy="319.8" r="1.2" fill="#fff" opacity="0.57"/>
+<circle cx="188.5" cy="12.0" r="1.9" fill="#fff" opacity="0.70"/>
+<circle cx="303.0" cy="51.8" r="1.3" fill="#fff" opacity="0.45"/>
+<circle cx="138.7" cy="212.2" r="1.5" fill="#fff" opacity="0.58"/>
+<circle cx="212.0" cy="293.4" r="2.1" fill="#fff" opacity="0.75"/>
+<circle cx="329.9" cy="280.3" r="1.6" fill="#fff" opacity="0.85"/>
+<circle cx="387.3" cy="104.0" r="1.1" fill="#fff" opacity="0.73"/>
+<circle cx="57.7" cy="115.1" r="2.1" fill="#fff" opacity="0.59"/>
+<circle cx="476.3" cy="152.6" r="1.8" fill="#fff" opacity="0.61"/>
+<circle cx="769.3" cy="59.3" r="1.3" fill="#fff" opacity="0.82"/>
+<circle cx="266.2" cy="155.4" r="2.1" fill="#fff" opacity="0.63"/>
+<g opacity="0.95" style="filter:drop-shadow(0 0 14px #00e5ff66)">
+<path d="M320,235 a38,38 0 0 1 6,-75 a48,48 0 0 1 92,-14 a36,36 0 0 1 62,39 a30,30 0 0 1 -8,50 Z" stroke="#00e5ff" stroke-width="3" fill="none" stroke-linecap="round"/>
+<line x1="350" y1="273" x2="338" y2="299" stroke="#ff9d00" fill="none" stroke-linecap="round" stroke-width="4"/>
+<line x1="400" y1="273" x2="400" y2="303" stroke="#ff9d00" fill="none" stroke-linecap="round" stroke-width="4"/>
+<line x1="450" y1="273" x2="462" y2="299" stroke="#ff9d00" fill="none" stroke-linecap="round" stroke-width="4"/>
+</g>
+<rect y="358" width="800" height="92" fill="#04040a" opacity="0.72"/>
+<rect y="358" width="800" height="3" fill="url(#barawscli)"/>
+<text x="36" y="398" font-family="'JetBrains Mono',monospace" font-size="26" font-weight="700" fill="#f2f6ff" letter-spacing="1">AWS CLI FORK</text>
+<text x="36" y="426" font-family="'JetBrains Mono',monospace" font-size="13" fill="#00e5ff" letter-spacing="3">CLOUD TOOLING</text>
+<text x="764" y="426" text-anchor="end" font-family="'JetBrains Mono',monospace" font-size="12" fill="#8b93b8" letter-spacing="2">O22UGDW213</text>
+</svg>

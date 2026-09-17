@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Harmony-OS-Next cover art">
+<defs>
+<linearGradient id="bgharmonyosnext" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#08040c"/><stop offset="1" stop-color="#1a0f2e"/>
+</linearGradient>
+<radialGradient id="neb1harmonyosnext" cx="0.25" cy="0.2" r="0.55">
+<stop offset="0" stop-color="#7b2fff" stop-opacity="0.28"/><stop offset="1" stop-color="#7b2fff" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="neb2harmonyosnext" cx="0.8" cy="0.85" r="0.6">
+<stop offset="0" stop-color="#ff2ea6" stop-opacity="0.24"/><stop offset="1" stop-color="#ff2ea6" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="barharmonyosnext" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#7b2fff"/><stop offset="1" stop-color="#ff2ea6"/>
+</linearGradient>
+</defs>
+<rect width="800" height="450" fill="url(#bgharmonyosnext)"/>
+<rect width="800" height="450" fill="url(#neb1harmonyosnext)"/>
+<rect width="800" height="450" fill="url(#neb2harmonyosnext)"/>
+<circle cx="336.9" cy="373.4" r="1.6" fill="#fff" opacity="0.74"/>
+<circle cx="407.1" cy="71.8" r="1.9" fill="#fff" opacity="0.84"/>
+<circle cx="167.7" cy="248.8" r="1.7" fill="#fff" opacity="0.75"/>
+<circle cx="647.3" cy="323.3" r="1.2" fill="#fff" opacity="0.60"/>
+<circle cx="576.5" cy="54.8" r="0.6" fill="#fff" opacity="0.36"/>
+<circle cx="669.1" cy="124.2" r="1.1" fill="#fff" opacity="0.33"/>
+<circle cx="96.8" cy="370.3" r="0.7" fill="#fff" opacity="0.94"/>
+<circle cx="441.8" cy="94.6" r="0.6" fill="#fff" opacity="0.87"/>
+<circle cx="311.8" cy="362.8" r="0.7" fill="#fff" opacity="0.81"/>
+<circle cx="528.7" cy="309.4" r="1.4" fill="#fff" opacity="0.75"/>
+<circle cx="352.1" cy="89.9" r="0.8" fill="#fff" opacity="0.58"/>
+<circle cx="589.2" cy="7.8" r="0.8" fill="#fff" opacity="0.89"/>
+<circle cx="426.2" cy="212.1" r="1.6" fill="#fff" opacity="0.35"/>
+<circle cx="352.3" cy="149.0" r="1.8" fill="#fff" opacity="0.59"/>
+<circle cx="524.7" cy="351.5" r="1.4" fill="#fff" opacity="0.81"/>
+<circle cx="451.1" cy="367.6" r="1.4" fill="#fff" opacity="0.42"/>
+<circle cx="759.2" cy="283.9" r="0.8" fill="#fff" opacity="0.50"/>
+<circle cx="394.7" cy="20.6" r="0.9" fill="#fff" opacity="0.33"/>
+<circle cx="88.2" cy="31.8" r="2.0" fill="#fff" opacity="0.84"/>
+<circle cx="397.5" cy="129.4" r="2.0" fill="#fff" opacity="0.79"/>
+<circle cx="350.3" cy="139.1" r="2.2" fill="#fff" opacity="0.26"/>
+<circle cx="547.1" cy="221.0" r="1.0" fill="#fff" opacity="0.62"/>
+<circle cx="156.8" cy="265.2" r="1.7" fill="#fff" opacity="0.73"/>
+<circle cx="483.9" cy="14.6" r="0.6" fill="#fff" opacity="0.77"/>
+<circle cx="796.7" cy="258.3" r="2.1" fill="#fff" opacity="0.87"/>
+<circle cx="346.8" cy="223.3" r="2.1" fill="#fff" opacity="0.27"/>
+<circle cx="171.0" cy="310.7" r="2.2" fill="#fff" opacity="0.32"/>
+<circle cx="442.5" cy="364.0" r="1.8" fill="#fff" opacity="0.85"/>
+<circle cx="192.9" cy="148.5" r="1.8" fill="#fff" opacity="0.42"/>
+<circle cx="269.9" cy="347.3" r="2.0" fill="#fff" opacity="0.62"/>
+<circle cx="500.4" cy="339.0" r="0.6" fill="#fff" opacity="0.38"/>
+<circle cx="252.3" cy="319.3" r="2.0" fill="#fff" opacity="0.62"/>
+<circle cx="651.7" cy="6.4" r="1.5" fill="#fff" opacity="0.57"/>
+<circle cx="534.9" cy="39.4" r="1.0" fill="#fff" opacity="0.44"/>
+<circle cx="493.2" cy="91.0" r="1.3" fill="#fff" opacity="0.65"/>
+<circle cx="491.9" cy="374.4" r="1.1" fill="#fff" opacity="0.27"/>
+<circle cx="738.0" cy="238.6" r="2.0" fill="#fff" opacity="0.56"/>
+<circle cx="487.7" cy="92.3" r="1.8" fill="#fff" opacity="0.70"/>
+<circle cx="371.6" cy="228.7" r="1.4" fill="#fff" opacity="0.32"/>
+<circle cx="298.9" cy="131.9" r="2.0" fill="#fff" opacity="0.60"/>
+<circle cx="78.8" cy="118.8" r="0.8" fill="#fff" opacity="0.34"/>
+<circle cx="503.5" cy="172.3" r="1.5" fill="#fff" opacity="0.35"/>
+<circle cx="388.0" cy="380.8" r="2.0" fill="#fff" opacity="0.73"/>
+<circle cx="756.5" cy="69.7" r="1.0" fill="#fff" opacity="0.77"/>
+<circle cx="752.1" cy="22.0" r="1.8" fill="#fff" opacity="0.76"/>
+<circle cx="397.8" cy="72.6" r="1.7" fill="#fff" opacity="0.90"/>
+<circle cx="774.3" cy="117.8" r="1.5" fill="#fff" opacity="0.63"/>
+<circle cx="669.0" cy="113.5" r="1.1" fill="#fff" opacity="0.27"/>
+<circle cx="173.0" cy="297.4" r="2.0" fill="#fff" opacity="0.94"/>
+<circle cx="41.0" cy="112.8" r="1.5" fill="#fff" opacity="0.31"/>
+<circle cx="459.3" cy="271.2" r="1.5" fill="#fff" opacity="0.61"/>
+<circle cx="317.7" cy="209.3" r="2.1" fill="#fff" opacity="0.51"/>
+<circle cx="375.6" cy="314.6" r="1.3" fill="#fff" opacity="0.27"/>
+<circle cx="12.3" cy="60.3" r="2.0" fill="#fff" opacity="0.86"/>
+<circle cx="326.1" cy="148.3" r="2.2" fill="#fff" opacity="0.47"/>
+<circle cx="141.8" cy="77.7" r="0.9" fill="#fff" opacity="0.45"/>
+<circle cx="388.6" cy="218.6" r="1.8" fill="#fff" opacity="0.34"/>
+<circle cx="654.8" cy="75.7" r="1.5" fill="#fff" opacity="0.95"/>
+<circle cx="330.2" cy="292.2" r="1.5" fill="#fff" opacity="0.39"/>
+<circle cx="454.2" cy="30.7" r="1.9" fill="#fff" opacity="0.88"/>
+<circle cx="710.0" cy="381.3" r="1.3" fill="#fff" opacity="0.27"/>
+<circle cx="441.0" cy="205.5" r="2.1" fill="#fff" opacity="0.82"/>
+<circle cx="424.8" cy="164.7" r="1.3" fill="#fff" opacity="0.27"/>
+<circle cx="445.6" cy="135.3" r="1.9" fill="#fff" opacity="0.30"/>
+<circle cx="318.6" cy="29.0" r="2.2" fill="#fff" opacity="0.54"/>
+<circle cx="149.3" cy="224.2" r="1.0" fill="#fff" opacity="0.31"/>
+<circle cx="601.0" cy="368.4" r="0.6" fill="#fff" opacity="0.41"/>
+<circle cx="158.0" cy="92.5" r="1.2" fill="#fff" opacity="0.27"/>
+<circle cx="692.2" cy="30.2" r="2.0" fill="#fff" opacity="0.34"/>
+<circle cx="718.3" cy="166.3" r="1.8" fill="#fff" opacity="0.75"/>
+<g opacity="0.95" style="filter:drop-shadow(0 0 14px #7b2fff66)">
+<rect x="352" y="110" width="96" height="170" rx="18" stroke="#7b2fff" stroke-width="3" fill="none" stroke-linecap="round"/>
+<line x1="370" y1="257" x2="430" y2="257" stroke="#ff2ea6" stroke-width="2" fill="none" stroke-linecap="round"/>
+<ellipse cx="400" cy="195" rx="130" ry="44" stroke="#ff2ea6" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.55" transform="rotate(-18 400 195)"/>
+<circle cx="518" cy="151" r="6" stroke="#7b2fff" fill="#7b2fff"/>
+</g>
+<rect y="358" width="800" height="92" fill="#04040a" opacity="0.72"/>
+<rect y="358" width="800" height="3" fill="url(#barharmonyosnext)"/>
+<text x="36" y="398" font-family="'JetBrains Mono',monospace" font-size="26" font-weight="700" fill="#f2f6ff" letter-spacing="1">HARMONY-OS-NEXT</text>
+<text x="36" y="426" font-family="'JetBrains Mono',monospace" font-size="13" fill="#7b2fff" letter-spacing="3">ARKTS · HARMONYOS</text>
+<text x="764" y="426" text-anchor="end" font-family="'JetBrains Mono',monospace" font-size="12" fill="#8b93b8" letter-spacing="2">O22UGDW213</text>
+</svg>

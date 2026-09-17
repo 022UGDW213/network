@@ -8,15 +8,14 @@
 
 ## Features
 
-- Responsive portfolio and project showcase
-- Neon glassmorphism visual system with animated particle background
-- Accessible keyboard navigation and skip link
-- Mobile navigation with ARIA state
+- "Dark Cosmic" design system: deep-space canvas starfield, neon cyan/magenta accents, Space Grotesk display type
+- Featured Work: 10 projects with procedurally generated SVG cover art (`assets/covers/`, via `tools/generate_covers.py`) and case-study blurbs (what it does / what was hard / what it proves)
+- All Repositories: live index from `data/repos.json` (generated via `gh repo list`) with search, sort, and fork filter — no frameworks
+- About, Skills, iBot flagship band, Connect, footer
+- Accessible: skip link, landmarks, focus-visible rings, reduced-motion support, 7:1 body contrast
 - Light/dark theme toggle with local preference persistence
-- Reduced-motion support for visitors who prefer less animation
-- Scroll progress indicator and active-section navigation
-- Skills, iBot platform capabilities, social links, and GitHub project cards
-- Static deployment through GitHub Pages with no backend or runtime secrets
+- Mobile navigation with ARIA state, scroll progress, active-section nav
+- Static deployment through GitHub Pages; zero build step, zero JS frameworks
 
 ## Tech Stack
 
