@@ -145,7 +145,7 @@
   },
   {
    "name": "Data-Science-Challenge",
-   "description": "Imagine that you are a new data scientist at this video streaming company and you are tasked with building a model that can predict which existing subscribers w",
+   "description": "Imagine that you are a new data scientist at this video streaming company and you are tasked with building a model that can predict which existing subscribers will continue their subscriptions for another month.",
    "stars": 1,
    "forks": 0,
    "lang": "CSS",
@@ -155,7 +155,7 @@
   },
   {
    "name": "Data-Science-Coding-Challange",
-   "description": "Imagine that you are a new data scientist at this video streaming company and you are tasked with building a model that can predict which existing subscribers w",
+   "description": "Imagine that you are a new data scientist at this video streaming company and you are tasked with building a model that can predict which existing subscribers will continue their subscriptions for another month.",
    "stars": 1,
    "forks": 0,
    "lang": "Python",
@@ -255,7 +255,7 @@
   },
   {
    "name": "qemu",
-   "description": "Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs",
+   "description": "Official QEMU mirror. Please see https://www.qemu.org/contribute/ for how to submit changes to QEMU. Pull Requests are ignored. Please only use release tarballs from the QEMU website.",
    "stars": 1,
    "forks": 0,
    "lang": "C",
@@ -335,7 +335,7 @@
   },
   {
    "name": "cve-bin-tool",
-   "description": "The CVE Binary Tool helps you determine if your system includes known vulnerabilities. You can scan binaries for over 350 common, vulnerable components (openssl",
+   "description": "The CVE Binary Tool helps you determine if your system includes known vulnerabilities. You can scan binaries for over 350 common, vulnerable components (openssl, libpng, libxml2, expat and others), or if you know the components used, you can get a list of known vulnerabilities associated with an SBOM or a list of components and versions.",
    "stars": 0,
    "forks": 0,
    "lang": "Python",
@@ -415,7 +415,7 @@
   },
   {
    "name": "liboqs-java",
-   "description": "liboqs-java is an open source Java wrapper for the liboqs C library. The Open Quantum Safe (OQS) project provides software for prototyping quantum-resistant cry",
+   "description": "liboqs-java is an open source Java wrapper for the liboqs C library. The Open Quantum Safe (OQS) project provides software for prototyping quantum-resistant cryptography.",
    "stars": 0,
    "forks": 0,
    "lang": "Java",
