@@ -4,13 +4,13 @@
 <stop offset="0" stop-color="#060410"/><stop offset="1" stop-color="#141033"/>
 </linearGradient>
 <radialGradient id="neb1qwen" cx="0.25" cy="0.2" r="0.55">
-<stop offset="0" stop-color="#7b2fff" stop-opacity="0.28"/><stop offset="1" stop-color="#7b2fff" stop-opacity="0"/>
+<stop offset="0" stop-color="#3b6cff" stop-opacity="0.28"/><stop offset="1" stop-color="#3b6cff" stop-opacity="0"/>
 </radialGradient>
 <radialGradient id="neb2qwen" cx="0.8" cy="0.85" r="0.6">
 <stop offset="0" stop-color="#00e5ff" stop-opacity="0.24"/><stop offset="1" stop-color="#00e5ff" stop-opacity="0"/>
 </radialGradient>
 <linearGradient id="barqwen" x1="0" y1="0" x2="1" y2="0">
-<stop offset="0" stop-color="#7b2fff"/><stop offset="1" stop-color="#00e5ff"/>
+<stop offset="0" stop-color="#3b6cff"/><stop offset="1" stop-color="#00e5ff"/>
 </linearGradient>
 </defs>
 <rect width="800" height="450" fill="url(#bgqwen)"/>
@@ -86,7 +86,7 @@
 <circle cx="508.8" cy="338.6" r="2.1" fill="#fff" opacity="0.54"/>
 <circle cx="403.5" cy="78.6" r="1.7" fill="#fff" opacity="0.45"/>
 <circle cx="425.1" cy="228.7" r="1.6" fill="#fff" opacity="0.77"/>
-<g opacity="0.95" style="filter:drop-shadow(0 0 14px #7b2fff66)">
+<g opacity="0.95" style="filter:drop-shadow(0 0 14px #3b6cff66)">
 <line x1="368" y1="146" x2="427" y2="135" stroke="#00e5ff" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.5"/>
 <line x1="368" y1="146" x2="406" y2="176" stroke="#00e5ff" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.5"/>
 <line x1="368" y1="146" x2="320" y2="196" stroke="#00e5ff" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.5"/>
@@ -109,19 +109,19 @@
 <line x1="317" y1="186" x2="332" y2="156" stroke="#00e5ff" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.5"/>
 <line x1="323" y1="138" x2="332" y2="156" stroke="#00e5ff" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.5"/>
 <line x1="386" y1="241" x2="423" y2="258" stroke="#00e5ff" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.5"/>
-<circle cx="368" cy="146" r="7" stroke="#7b2fff" fill="#7b2fff" opacity="0.9"/>
-<circle cx="427" cy="135" r="7" stroke="#7b2fff" fill="#7b2fff" opacity="0.9"/>
-<circle cx="406" cy="176" r="7" stroke="#7b2fff" fill="#7b2fff" opacity="0.9"/>
-<circle cx="320" cy="196" r="7" stroke="#7b2fff" fill="#7b2fff" opacity="0.9"/>
-<circle cx="317" cy="186" r="7" stroke="#7b2fff" fill="#7b2fff" opacity="0.9"/>
-<circle cx="323" cy="138" r="7" stroke="#7b2fff" fill="#7b2fff" opacity="0.9"/>
-<circle cx="386" cy="241" r="7" stroke="#7b2fff" fill="#7b2fff" opacity="0.9"/>
-<circle cx="332" cy="156" r="7" stroke="#7b2fff" fill="#7b2fff" opacity="0.9"/>
-<circle cx="423" cy="258" r="7" stroke="#7b2fff" fill="#7b2fff" opacity="0.9"/>
+<circle cx="368" cy="146" r="7" stroke="#3b6cff" fill="#3b6cff" opacity="0.9"/>
+<circle cx="427" cy="135" r="7" stroke="#3b6cff" fill="#3b6cff" opacity="0.9"/>
+<circle cx="406" cy="176" r="7" stroke="#3b6cff" fill="#3b6cff" opacity="0.9"/>
+<circle cx="320" cy="196" r="7" stroke="#3b6cff" fill="#3b6cff" opacity="0.9"/>
+<circle cx="317" cy="186" r="7" stroke="#3b6cff" fill="#3b6cff" opacity="0.9"/>
+<circle cx="323" cy="138" r="7" stroke="#3b6cff" fill="#3b6cff" opacity="0.9"/>
+<circle cx="386" cy="241" r="7" stroke="#3b6cff" fill="#3b6cff" opacity="0.9"/>
+<circle cx="332" cy="156" r="7" stroke="#3b6cff" fill="#3b6cff" opacity="0.9"/>
+<circle cx="423" cy="258" r="7" stroke="#3b6cff" fill="#3b6cff" opacity="0.9"/>
 </g>
 <rect y="358" width="800" height="92" fill="#04040a" opacity="0.72"/>
 <rect y="358" width="800" height="3" fill="url(#barqwen)"/>
 <text x="36" y="398" font-family="'JetBrains Mono',monospace" font-size="26" font-weight="700" fill="#f2f6ff" letter-spacing="1">QWEN LOCAL LLM</text>
-<text x="36" y="426" font-family="'JetBrains Mono',monospace" font-size="13" fill="#7b2fff" letter-spacing="3">LOCAL-FIRST AI</text>
+<text x="36" y="426" font-family="'JetBrains Mono',monospace" font-size="13" fill="#3b6cff" letter-spacing="3">LOCAL-FIRST AI</text>
 <text x="764" y="426" text-anchor="end" font-family="'JetBrains Mono',monospace" font-size="12" fill="#8b93b8" letter-spacing="2">O22UGDW213</text>
 </svg>

@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Agent Mail Intel cover art">
 <defs>
 <linearGradient id="bgagentmailintel" x1="0" y1="0" x2="1" y2="1">
-<stop offset="0" stop-color="#0c0410"/><stop offset="1" stop-color="#1c0a2e"/>
+<stop offset="0" stop-color="#04040c"/><stop offset="1" stop-color="#0a1030"/>
 </linearGradient>
 <radialGradient id="neb1agentmailintel" cx="0.25" cy="0.2" r="0.55">
 <stop offset="0" stop-color="#1e90ff" stop-opacity="0.28"/><stop offset="1" stop-color="#1e90ff" stop-opacity="0"/>

@@ -7,10 +7,10 @@
 <stop offset="0" stop-color="#00e5ff" stop-opacity="0.28"/><stop offset="1" stop-color="#00e5ff" stop-opacity="0"/>
 </radialGradient>
 <radialGradient id="neb2ibotsyntheticintelligence" cx="0.8" cy="0.85" r="0.6">
-<stop offset="0" stop-color="#7b2fff" stop-opacity="0.24"/><stop offset="1" stop-color="#7b2fff" stop-opacity="0"/>
+<stop offset="0" stop-color="#3b6cff" stop-opacity="0.24"/><stop offset="1" stop-color="#3b6cff" stop-opacity="0"/>
 </radialGradient>
 <linearGradient id="baribotsyntheticintelligence" x1="0" y1="0" x2="1" y2="0">
-<stop offset="0" stop-color="#00e5ff"/><stop offset="1" stop-color="#7b2fff"/>
+<stop offset="0" stop-color="#00e5ff"/><stop offset="1" stop-color="#3b6cff"/>
 </linearGradient>
 </defs>
 <rect width="800" height="450" fill="url(#bgibotsyntheticintelligence)"/>
@@ -88,15 +88,15 @@
 <circle cx="515.6" cy="7.2" r="0.8" fill="#fff" opacity="0.40"/>
 <g opacity="0.95" style="filter:drop-shadow(0 0 14px #00e5ff66)">
 <rect x="330" y="140" width="140" height="110" rx="22" stroke="#00e5ff" stroke-width="3" fill="none" stroke-linecap="round"/>
-<circle cx="368" cy="187" r="12" stroke="#7b2fff" stroke-width="2" fill="none" stroke-linecap="round"/>
-<circle cx="432" cy="187" r="12" stroke="#7b2fff" stroke-width="2" fill="none" stroke-linecap="round"/>
+<circle cx="368" cy="187" r="12" stroke="#3b6cff" stroke-width="2" fill="none" stroke-linecap="round"/>
+<circle cx="432" cy="187" r="12" stroke="#3b6cff" stroke-width="2" fill="none" stroke-linecap="round"/>
 <circle cx="368" cy="187" r="4" stroke="#00e5ff" fill="#00e5ff"/>
 <circle cx="432" cy="187" r="4" stroke="#00e5ff" fill="#00e5ff"/>
-<line x1="400" y1="140" x2="400" y2="105" stroke="#7b2fff" stroke-width="2" fill="none" stroke-linecap="round"/>
+<line x1="400" y1="140" x2="400" y2="105" stroke="#3b6cff" stroke-width="2" fill="none" stroke-linecap="round"/>
 <circle cx="400" cy="99" r="6" stroke="#00e5ff" fill="#00e5ff"/>
-<line x1="360" y1="223" x2="440" y2="223" stroke="#7b2fff" stroke-width="2" fill="none" stroke-linecap="round"/>
-<rect x="305" y="165" width="14" height="60" rx="7" stroke="#7b2fff" stroke-width="2" fill="none" stroke-linecap="round"/>
-<rect x="481" y="165" width="14" height="60" rx="7" stroke="#7b2fff" stroke-width="2" fill="none" stroke-linecap="round"/>
+<line x1="360" y1="223" x2="440" y2="223" stroke="#3b6cff" stroke-width="2" fill="none" stroke-linecap="round"/>
+<rect x="305" y="165" width="14" height="60" rx="7" stroke="#3b6cff" stroke-width="2" fill="none" stroke-linecap="round"/>
+<rect x="481" y="165" width="14" height="60" rx="7" stroke="#3b6cff" stroke-width="2" fill="none" stroke-linecap="round"/>
 </g>
 <rect y="358" width="800" height="92" fill="#04040a" opacity="0.72"/>
 <rect y="358" width="800" height="3" fill="url(#baribotsyntheticintelligence)"/>
