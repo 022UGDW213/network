@@ -18,7 +18,7 @@
         x: Math.random() * W, y: Math.random() * H,
         r: Math.random() * 1.4 + .3, o: Math.random() * .55 + .15,
         tw: Math.random() * Math.PI * 2,
-        hue: Math.random() < .12 ? '255,46,166' : (Math.random() < .3 ? '123,47,255' : '0,229,255')
+        hue: Math.random() < .12 ? '30,144,255' : (Math.random() < .3 ? '123,47,255' : '0,229,255')
       }));
     }
     addEventListener('resize', resize); resize();

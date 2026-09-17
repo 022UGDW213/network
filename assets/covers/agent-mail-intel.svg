@@ -4,13 +4,13 @@
 <stop offset="0" stop-color="#0c0410"/><stop offset="1" stop-color="#1c0a2e"/>
 </linearGradient>
 <radialGradient id="neb1agentmailintel" cx="0.25" cy="0.2" r="0.55">
-<stop offset="0" stop-color="#ff2ea6" stop-opacity="0.28"/><stop offset="1" stop-color="#ff2ea6" stop-opacity="0"/>
+<stop offset="0" stop-color="#1e90ff" stop-opacity="0.28"/><stop offset="1" stop-color="#1e90ff" stop-opacity="0"/>
 </radialGradient>
 <radialGradient id="neb2agentmailintel" cx="0.8" cy="0.85" r="0.6">
 <stop offset="0" stop-color="#00e5ff" stop-opacity="0.24"/><stop offset="1" stop-color="#00e5ff" stop-opacity="0"/>
 </radialGradient>
 <linearGradient id="baragentmailintel" x1="0" y1="0" x2="1" y2="0">
-<stop offset="0" stop-color="#ff2ea6"/><stop offset="1" stop-color="#00e5ff"/>
+<stop offset="0" stop-color="#1e90ff"/><stop offset="1" stop-color="#00e5ff"/>
 </linearGradient>
 </defs>
 <rect width="800" height="450" fill="url(#bgagentmailintel)"/>
@@ -86,16 +86,16 @@
 <circle cx="431.2" cy="37.6" r="1.7" fill="#fff" opacity="0.30"/>
 <circle cx="619.0" cy="219.3" r="1.8" fill="#fff" opacity="0.80"/>
 <circle cx="752.2" cy="374.7" r="1.8" fill="#fff" opacity="0.76"/>
-<g opacity="0.95" style="filter:drop-shadow(0 0 14px #ff2ea666)">
-<rect x="310" y="135" width="180" height="120" rx="12" stroke="#ff2ea6" stroke-width="3" fill="none" stroke-linecap="round"/>
-<polyline points="310,135 400,200 490,135" stroke="#ff2ea6" stroke-width="3" fill="none" stroke-linecap="round"/>
+<g opacity="0.95" style="filter:drop-shadow(0 0 14px #1e90ff66)">
+<rect x="310" y="135" width="180" height="120" rx="12" stroke="#1e90ff" stroke-width="3" fill="none" stroke-linecap="round"/>
+<polyline points="310,135 400,200 490,135" stroke="#1e90ff" stroke-width="3" fill="none" stroke-linecap="round"/>
 <circle cx="520" cy="125" r="46" stroke="#00e5ff" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.5"/>
 <line x1="520" y1="125" x2="552" y2="93" stroke="#00e5ff" stroke-width="2" fill="none" stroke-linecap="round"/>
-<circle cx="520" cy="125" r="5" stroke="#ff2ea6" fill="#ff2ea6"/>
+<circle cx="520" cy="125" r="5" stroke="#1e90ff" fill="#1e90ff"/>
 </g>
 <rect y="358" width="800" height="92" fill="#04040a" opacity="0.72"/>
 <rect y="358" width="800" height="3" fill="url(#baragentmailintel)"/>
 <text x="36" y="398" font-family="'JetBrains Mono',monospace" font-size="26" font-weight="700" fill="#f2f6ff" letter-spacing="1">AGENT MAIL INTEL</text>
-<text x="36" y="426" font-family="'JetBrains Mono',monospace" font-size="13" fill="#ff2ea6" letter-spacing="3">EMAIL → INTELLIGENCE</text>
+<text x="36" y="426" font-family="'JetBrains Mono',monospace" font-size="13" fill="#1e90ff" letter-spacing="3">EMAIL → INTELLIGENCE</text>
 <text x="764" y="426" text-anchor="end" font-family="'JetBrains Mono',monospace" font-size="12" fill="#8b93b8" letter-spacing="2">O22UGDW213</text>
 </svg>

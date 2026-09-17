@@ -4,13 +4,13 @@
 <stop offset="0" stop-color="#0c0604"/><stop offset="1" stop-color="#2e1a0a"/>
 </linearGradient>
 <radialGradient id="neb1htmlprograming" cx="0.25" cy="0.2" r="0.55">
-<stop offset="0" stop-color="#ff2ea6" stop-opacity="0.28"/><stop offset="1" stop-color="#ff2ea6" stop-opacity="0"/>
+<stop offset="0" stop-color="#1e90ff" stop-opacity="0.28"/><stop offset="1" stop-color="#1e90ff" stop-opacity="0"/>
 </radialGradient>
 <radialGradient id="neb2htmlprograming" cx="0.8" cy="0.85" r="0.6">
 <stop offset="0" stop-color="#ffb300" stop-opacity="0.24"/><stop offset="1" stop-color="#ffb300" stop-opacity="0"/>
 </radialGradient>
 <linearGradient id="barhtmlprograming" x1="0" y1="0" x2="1" y2="0">
-<stop offset="0" stop-color="#ff2ea6"/><stop offset="1" stop-color="#ffb300"/>
+<stop offset="0" stop-color="#1e90ff"/><stop offset="1" stop-color="#ffb300"/>
 </linearGradient>
 </defs>
 <rect width="800" height="450" fill="url(#bghtmlprograming)"/>
@@ -86,14 +86,14 @@
 <circle cx="532.5" cy="70.2" r="2.2" fill="#fff" opacity="0.94"/>
 <circle cx="319.3" cy="262.9" r="1.2" fill="#fff" opacity="0.61"/>
 <circle cx="129.2" cy="306.1" r="1.5" fill="#fff" opacity="0.29"/>
-<g opacity="0.95" style="filter:drop-shadow(0 0 14px #ff2ea666)">
-<polyline points="370,125 305,195 370,265" stroke="#ff2ea6" fill="none" stroke-linecap="round" stroke-width="6"/>
-<polyline points="430,125 495,195 430,265" stroke="#ff2ea6" fill="none" stroke-linecap="round" stroke-width="6"/>
+<g opacity="0.95" style="filter:drop-shadow(0 0 14px #1e90ff66)">
+<polyline points="370,125 305,195 370,265" stroke="#1e90ff" fill="none" stroke-linecap="round" stroke-width="6"/>
+<polyline points="430,125 495,195 430,265" stroke="#1e90ff" fill="none" stroke-linecap="round" stroke-width="6"/>
 <line x1="418" y1="115" x2="382" y2="275" stroke="#ffb300" fill="none" stroke-linecap="round" stroke-width="5"/>
 </g>
 <rect y="358" width="800" height="92" fill="#04040a" opacity="0.72"/>
 <rect y="358" width="800" height="3" fill="url(#barhtmlprograming)"/>
 <text x="36" y="398" font-family="'JetBrains Mono',monospace" font-size="26" font-weight="700" fill="#f2f6ff" letter-spacing="1">HTML PROGRAMING</text>
-<text x="36" y="426" font-family="'JetBrains Mono',monospace" font-size="13" fill="#ff2ea6" letter-spacing="3">30 VANILLA-JS CHALLENGES</text>
+<text x="36" y="426" font-family="'JetBrains Mono',monospace" font-size="13" fill="#1e90ff" letter-spacing="3">30 VANILLA-JS CHALLENGES</text>
 <text x="764" y="426" text-anchor="end" font-family="'JetBrains Mono',monospace" font-size="12" fill="#8b93b8" letter-spacing="2">O22UGDW213</text>
 </svg>
