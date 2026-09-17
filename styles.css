@@ -154,6 +154,7 @@ a{color:var(--cyan)}
 
 /* ---------- about ---------- */
 .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem}
+.about-card-wide{grid-column:1/-1}
 .about-card{background:var(--glass);border:1px solid var(--glass-border);border-radius:var(--radius);
   -webkit-backdrop-filter:blur(var(--blur-m)) saturate(var(--saturate));
   backdrop-filter:blur(var(--blur-m)) saturate(var(--saturate));
