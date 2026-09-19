@@ -27,8 +27,8 @@ PROJECTS = [
      ("#040c08", "#0a2e1c", "#00e5ff", "#00ff9d"), "terminal"),
     ("html-programing", "HTML Programing", "30 VANILLA-JS CHALLENGES",
      ("#0c0604", "#2e1a0a", "#1e90ff", "#ffb300"), "brackets"),
-    ("qwen", "Qwen Local LLM", "LOCAL-FIRST AI",
-     ("#060410", "#141033", "#3b6cff", "#00e5ff"), "brain"),
+    ("claude-code", "Claude Code", "AGENTIC CODING",
+     ("#0c0605", "#2b1409", "#ff8c5a", "#00e5ff"), "terminal"),
     ("aws-cli", "AWS CLI Fork", "CLOUD TOOLING",
      ("#04080c", "#0a2430", "#00e5ff", "#ff9d00"), "cloud"),
 ]
